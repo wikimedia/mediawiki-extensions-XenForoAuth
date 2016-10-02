@@ -1,0 +1,6 @@
+[gerrit]
+host=gerrit.go2tech.de
+port=29418
+project=droidwiki/extensions/XenForoAuth.git
+defaultbranch=master
+defaultrebase=0
