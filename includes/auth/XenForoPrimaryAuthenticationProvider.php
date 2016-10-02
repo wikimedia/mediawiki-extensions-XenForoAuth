@@ -97,6 +97,10 @@ class XenForoPrimaryAuthenticationProvider extends AbstractPrimaryAuthentication
 		) {
 			XenForoUser::connectWithXenForoUser( $user,
 				$this->autoCreateLinkRequest->userInfo['user_id'] );
+			if ( isset( $this->autoCreateLinkRequest->userInfo['user_email'] ) ) {
+				$user->setEmailWithConfirmation( $this->autoCreateLinkRequest->userInfo['user_email'] );
+				$user->saveSettings();
+			}
 		}
 	}
 
