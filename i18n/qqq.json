@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Florian Schmidt",
+			"Shirayuki",
+			"Umherirrender",
+			"George Animal",
+			"Liuxinyu970226",
+			"Metalhead64"
+		]
+	},
+	"xenforoauth": "{{doc-special|XenForoAuth}}\nAlso used as label for the button shown in [[Special:Login]].",
+	"xenforoauth-create": "Used as label for the button shown in [[Special:CreateAccount]].",
+	"xenforoauth-auth-service-name": "The name of the service used to authenticate an user.",
+	"xenforoauth-desc-authmanager": "{{desc|name=XenForoAuth|url=https://www.mediawiki.org/wiki/Extension:XenForoAuth}}",
+	"xenforoauth-generic-error": "Generic error message for errors with no specific error message.\n\nParameters:\n* $1 - a short description of the error (e.g. Database error)",
+	"xenforoauth-form-merge": "Title of button to merge the wikiaccount and XenForo account, if the user is logged into a wikiaccount (and not connected to a XenForo account) and navigates to Special:XenForoLogin.",
+	"xenforoauth-form-unlink": "Title of button to unlink the connection between the wiki user account and XenForo account.",
+	"xenforoauth-link-other": "The XenForo account is already linked to a wiki user, but not to the actual logged in wiki user. To link the XenForo account with the actual wiki account, the user must unlink the connection wit the other wiki account, only one connection per XenForo account is allowed.",
+	"xenforoauth-link-same": "The XenForo account is already linked to the currently logged in wiki user.",
+	"xenforoauth-error-no-authentication-workflow": "Error message that gives the user the information, that there's no active authentication workflow and that the workflow can therefore not be continued.",
+	"xenforoauth-loginbutton-help": "Help message used for the Login with XenForo button on [[Special:UserLogin]].",
+	"xenforoauth-link-help": "Help message used for the Link with XenForo button on [[Special:LinkAccounts]].",
+	"xenforoauth-param-error-label": "Label for the input field for an error code returned by XenForo in case of an authentication failure.",
+	"xenforoauth-param-error-help": "Help message for the input field, which is described in {{msg-mw|XenForologin-param-error-label}}.",
+	"xenforoauth-param-code-label": "Label for the input field for an access token returned by XenForo when the user was authenticated successfully.",
+	"xenforoauth-param-code-help": "Help message for the input field, which is described in {{msg-mw|XenForologin-param-code-label}}.",
+	"xenforoauth-change-account-not-linked": "Error message when an user tries to remove a XenForo account connection, but the wiki account has no connected XenForo accounts.",
+	"xenforoauth-auth-service-unknown-account": "Used in the very rare case, that the XenForo ID connected with the MediaWiki User isn't known anymore.",
+	"xenforoauth-access-denied": "Message returned to the user, when the access to the XenForo account information was rejected.",
+	"xenforoauth-local-exists": "Error message printed for the user, if he successfully logged in with XenForo, but the account is not connected with a local wiki account and the XenForo username is already registered in this wiki."
+}

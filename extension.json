@@ -1,0 +1,74 @@
+{
+	"name": "XenForoAuth",
+	"version": "0.1.0",
+	"author": "Florian Schmidt",
+	"url": "https://www.mediawiki.org/wiki/Extension:XenForoAuth",
+	"descriptionmsg": "xenforoauth-desc-authmanager",
+	"license-name": "MIT",
+	"type": "auth",
+	"requires": {
+		"MediaWiki": ">= 1.28.0"
+	},
+	"ConfigRegistry": {
+		"xenforoauth": "GlobalVarConfig::newInstance"
+	},
+	"MessagesDirs": {
+		"XenForoAuth": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "XenForoAuth\\Hooks::onLoadExtensionSchemaUpdates",
+		"AuthChangeFormFields": "XenForoAuth\\Hooks::onAuthChangeFormFields",
+		"ResourceLoaderGetLessVars": "XenForoAuth\\Hooks::onResourceLoaderGetLessVars"
+	},
+	"AutoloadClasses": {
+		"XenForoAuth\\Auth\\XenForoPrimaryAuthenticationProvider": "includes/auth/XenForoPrimaryAuthenticationProvider.php",
+		"XenForoAuth\\Auth\\XenForoAuthenticationRequest": "includes/auth/XenForoAuthenticationRequest.php",
+		"XenForoAuth\\Auth\\XenForoRemoveAuthenticationRequest": "includes/auth/XenForoRemoveAuthenticationRequest.php",
+		"XenForoAuth\\Auth\\XenForoServerAuthenticationRequest": "includes/auth/XenForoServerAuthenticationRequest.php",
+		"XenForoAuth\\Auth\\XenForoUserInfoAuthenticationRequest": "includes/auth/XenForoUserInfoAuthenticationRequest.php",
+		"XenForoAuth\\HTMLXenForoButtonField": "includes/htmlform/HTMLXenForoButtonField.php",
+		"XenForoAuth\\XenForoUser": "includes/XenForoUser.php",
+		"XenForoAuth\\Hooks": "includes/Hooks.php"
+	},
+	"AuthManagerAutoConfig": {
+		"primaryauth": {
+			"XenForoAuth\\Auth\\XenForoPrimaryAuthenticationProvider": {
+				"class": "XenForoAuth\\Auth\\XenForoPrimaryAuthenticationProvider",
+				"sort": 102
+			}
+		}
+	},
+	"ResourceModules": {
+		"ext.XenForo.userlogincreate.style": {
+			"styles": "style/ext.XenForo.userlogincreate.less",
+			"position": "top",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.XenForo.userlogincreate.ooui.style": {
+			"styles": "style/ext.XenForo.userlogincreate.ooui.less",
+			"position": "top",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "XenForoAuth"
+	},
+	"config": {
+		"XenForoAuthBaseUrl": "",
+		"XenForoAuthClientId": "",
+		"XenForoAuthClientSecret": "",
+		"XenForoAuthButtonIcon": "'images\/xenForo_icon.png'",
+		"XenForoAuthAutoCreate": false
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 1
+}

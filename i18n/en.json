@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Florian Schmidt"
+		]
+	},
+	"xenforoauth": "Log in with XenForo",
+	"xenforoauth-auth-service-name": "XenForo",
+	"xenforoauth-create": "Create with XenForo",
+	"xenforoauth-desc-authmanager": "Allow users to login with a XenForo account.",
+	"xenforoauth-generic-error": "Oops, there was an error. Please go back and try again. Message: $1",
+	"xenforoauth-form-merge": "Link XenForo to wiki account",
+	"xenforoauth-form-unlink": "Unlink XenForo from wiki account",
+	"xenforoauth-link-other": "Your XenForo account is already linked to another user. Please unlink the connection or contact an administrator, if you have no other wiki account.",
+	"xenforoauth-link-same": "Your XenForo account is already linked to your user, so you can't link it again.",
+	"xenforoauth-error-no-authentication-workflow": "You requested to continue an already started XenForo authentication workflow, but there's no one that is already started. Please start a new authentication workflow by trying to login again.",
+	"xenforoauth-loginbutton-help": "Authenticates you with your XenForo account.",
+	"xenforoauth-link-help": "Link your wiki account with your XenForo account.",
+	"xenforoauth-param-error-label": "Error code returned from XenForo",
+	"xenforoauth-param-error-help": "In case of an authentication failure, the error code returned from XenForo.",
+	"xenforoauth-param-code-label": "Access token from XenForo",
+	"xenforoauth-param-code-help": "In case of a successful authentication, the access token returned from XenForo.",
+	"xenforoauth-change-account-not-linked": "You can not remove a XenForo account connection, because your account isn't connected with a XenForo account.",
+	"xenforoauth-auth-service-unknown-account": "Unknown XenForo account",
+	"xenforoauth-access-denied": "Unable to log in. You denied the access to your XenForo account information.",
+	"xenforoauth-local-exists": "You successfully logged into your XenForo account. However, an account with the user name $1 already exists in {{SITENAME}} and is not connected with your XenForo account, so you couldn't be logged in. See [https://www.mediawiki.org/wiki/Help:Extension:XenForoAuth/LocalExists the help page] for this error to get more information."
+}
