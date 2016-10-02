@@ -3,7 +3,7 @@
 	"description": "Allow users to login to MediaWiki with their account in a XenForo forum.",
 	"license": "MIT",
 	"require": {
-		"droidwiki/xenforo-bd-client": "dev-master#c6fc204aa506312cba7d9c4348de0b9ffb1d33cb"
+		"droidwiki/xenforo-bd-client": "^0.1.0"
 	},
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "0.9.2",
