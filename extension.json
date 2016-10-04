@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"author": "Florian Schmidt",
 	"url": "https://www.mediawiki.org/wiki/Extension:XenForoAuth",
-	"descriptionmsg": "xenforoauth-desc-authmanager",
+	"descriptionmsg": "xenforoauth-desc",
 	"license-name": "MIT",
 	"type": "auth",
 	"requires": {

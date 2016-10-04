@@ -11,7 +11,7 @@
 	"xenforoauth": "Anmelden mit XenForo",
 	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Mit XenForo erstellen",
-	"xenforoauth-desc-authmanager": "Erlaubt es Benutzern, sich mit einem XenForo-Konto anzumelden.",
+	"xenforoauth-desc": "Erlaubt es Benutzern, sich mit einem XenForo-Konto anzumelden.",
 	"xenforoauth-generic-error": "Oops, da war ein Problem. Bitte gehe zurück und versuche die Aktion erneut. Fehlernachricht: $1",
 	"xenforoauth-form-merge": "XenForo- und Wiki-Benutzerkonto verbinden",
 	"xenforoauth-form-unlink": "XenForo-Benutzerkonto vom Wiki-Benutzerkonto trennen",

@@ -7,7 +7,7 @@
 	"xenforoauth": "Log in with XenForo",
 	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Create with XenForo",
-	"xenforoauth-desc-authmanager": "Allow users to login with a XenForo account.",
+	"xenforoauth-desc": "Allow users to login with a XenForo account",
 	"xenforoauth-generic-error": "Oops, there was an error. Please go back and try again. Message: $1",
 	"xenforoauth-form-merge": "Link XenForo to wiki account",
 	"xenforoauth-form-unlink": "Unlink XenForo from wiki account",
