@@ -12,12 +12,12 @@
 	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Mit XenForo erstellen",
 	"xenforoauth-desc": "Erlaubt es Benutzern, sich mit einem XenForo-Konto anzumelden.",
-	"xenforoauth-generic-error": "Oops, da war ein Problem. Bitte gehe zurück und versuche die Aktion erneut. Fehlernachricht: $1",
+	"xenforoauth-generic-error": "Oops! Es gab ein Problem. Bitte gehe zurück und versuche die Aktion erneut. Fehlernachricht: $1",
 	"xenforoauth-form-merge": "XenForo- und Wiki-Benutzerkonto verbinden",
 	"xenforoauth-form-unlink": "XenForo-Benutzerkonto vom Wiki-Benutzerkonto trennen",
 	"xenforoauth-link-other": "Dein XenForo-Benutzerkonto ist bereits mit einem anderen Benutzer verknüpft. Bitte trenne die Verbindung oder kontaktiere einen Administrator, falls du kein weiteres Wiki-Benutzerkonto hast.",
 	"xenforoauth-link-same": "Dein XenForo-Konto ist bereits mit deinem Benutzer verknüpft, so dass du es nicht erneut verknüpfen kannst.",
-	"xenforoauth-error-no-authentication-workflow": "Du hast eine Fortführung eines bereits gestarteten XenForo-Authentifikations-Workflows angefordert, aber es gibt keinen, der bereits gestartet ist. Starte bitte ein neues Authentifikations-Workflow, indem du dich erneut anmeldest.",
+	"xenforoauth-error-no-authentication-workflow": "Du hast eine Fortführung eines bereits gestarteten XenForo-Authentifikations-Workflows angefordert. Es gibt jedoch keinen, der bereits gestartet ist. Starte bitte ein neues Authentifikations-Workflow, indem du dich erneut anmeldest.",
 	"xenforoauth-loginbutton-help": "Authentifiziert dich mit deinem XenForo-Konto.",
 	"xenforoauth-link-help": "Verknüpfe dein Wiki-Benutzerkonto mit deinem XenForo-Konto.",
 	"xenforoauth-param-error-label": "Von XenForo zurückgegebener Fehlercode",
@@ -27,5 +27,5 @@
 	"xenforoauth-change-account-not-linked": "Du kannst keine XenForo-Kontenverbindung entfernen, da dein Benutzerkonto nicht mit einem XenForo-Konto verbunden ist.",
 	"xenforoauth-auth-service-unknown-account": "Unbekanntes XenForo-Konto",
 	"xenforoauth-access-denied": "Du konntest nicht angemeldet werden. Du hast den Zugriff auf die Informationen deines XenForo-Kontos abgelehnt.",
-	"xenforoauth-local-exists": "Du hast dich erfolgreich in dein XenForo-Konto angemeldet. Allerdings existiert bereits ein Konto mit dem Benutzernamen $1 in {{SITENAME}} und ist nicht mit deinem XenForo-Konto verknüpft, daher konntest du nicht angemeldet werden. Siehe [https://www.mediawiki.org/wiki/Help:Extension:XenForoAuth/LocalExists die Hilfeseite] über diesen Fehler um mehr Informationen zu erhalten."
+	"xenforoauth-local-exists": "Du hast dich erfolgreich mit deinem XenForo-Konto angemeldet. Allerdings ist bereits ein Konto mit dem Benutzernamen $1 in {{SITENAME}} vorhanden. Dieses ist nicht mit deinem XenForo-Konto verknüpft. Daher konntest du nicht angemeldet werden. Siehe [https://www.mediawiki.org/wiki/Help:Extension:XenForoAuth/LocalExists die Hilfeseite] über diesen Fehler, um mehr Informationen zu erhalten."
 }

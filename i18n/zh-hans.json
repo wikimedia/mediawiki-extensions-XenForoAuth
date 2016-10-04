@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"xenforoauth": "使用XenForo登录",
+	"xenforoauth-auth-service-name": "XenForo",
+	"xenforoauth-create": "使用XenForo创建",
+	"xenforoauth-desc": "允许用户通过使用XenForo账户登录",
+	"xenforoauth-generic-error": "天哪，发生了一个错误。请返回并重试。消息：$1",
+	"xenforoauth-form-merge": "关联XenForo至wiki账户",
+	"xenforoauth-form-unlink": "取消Google账户和XenForo的关联",
+	"xenforoauth-link-other": "您的XenForo账户已连接至其他用户。请取消连接或联络管理员，如果您没有其他wiki账户的话。",
+	"xenforoauth-link-same": "您的XenForo账户已链接至你的用户，所以您不能再次链接它。",
+	"xenforoauth-error-no-authentication-workflow": "您请求了继续已经开始的XenForo身份验证工作流，但这里没有已经开始的工作流。请通过尝试重新登录，开始新的身份验证工作流。",
+	"xenforoauth-loginbutton-help": "通过您的XenForo账户验证您。",
+	"xenforoauth-link-help": "将您的wiki账户与您的XenForo账户。",
+	"xenforoauth-param-error-label": "返回自XenForo的错误代码",
+	"xenforoauth-param-error-help": "万一身份验证失败，返回自XenForo的错误代码。",
+	"xenforoauth-param-code-label": "来自XenForo的访问令牌",
+	"xenforoauth-param-code-help": "当身份验证成功时，返回自XenForo的访问令牌。",
+	"xenforoauth-change-account-not-linked": "您不能移除XenForo账户连接，因为您的账户未与XenForo账户连接。",
+	"xenforoauth-auth-service-unknown-account": "未知的XenForo账户",
+	"xenforoauth-access-denied": "无法登陆。您拒绝了对您XenForo账户信息的访问请求。",
+	"xenforoauth-local-exists": "您已成功登陆至您的XenForo账户。然而，用户名为$1的账户已存在于{{SITENAME}}，并未与您的XenForo连接，因此您不能登录。参见有关此错误的[https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists 帮助页面]以获取更多信息。"
+}

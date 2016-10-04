@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"xenforoauth-auth-service-name": "XenForo",
+	"xenforoauth-generic-error": "Ups, wystąpił błąd. Proszę wrócić i spróbować jeszcze raz. Komunikat: $1",
+	"xenforoauth-auth-service-unknown-account": "Nieznane konto XenForo"
+}

@@ -10,8 +10,8 @@
 		]
 	},
 	"xenforoauth": "{{doc-special|XenForoAuth}}\nAlso used as label for the button shown in [[Special:Login]].",
-	"xenforoauth-create": "Used as label for the button shown in [[Special:CreateAccount]].",
 	"xenforoauth-auth-service-name": "The name of the service used to authenticate an user.",
+	"xenforoauth-create": "Used as label for the button shown in [[Special:CreateAccount]].",
 	"xenforoauth-desc": "{{desc|name=XenForoAuth|url=https://www.mediawiki.org/wiki/Extension:XenForoAuth}}",
 	"xenforoauth-generic-error": "Generic error message for errors with no specific error message.\n\nParameters:\n* $1 - a short description of the error (e.g. Database error)",
 	"xenforoauth-form-merge": "Title of button to merge the wikiaccount and XenForo account, if the user is logged into a wikiaccount (and not connected to a XenForo account) and navigates to Special:XenForoLogin.",
