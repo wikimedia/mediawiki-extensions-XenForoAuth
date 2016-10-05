@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"xenforoauth": "Mat XenForo aloggen",
+	"xenforoauth-auth-service-name": "XenForo",
+	"xenforoauth-generic-error": "Ups, do war e Feeler. Gitt w.e.g. zréck a probéiert nach eng Kéier. Message: $1",
+	"xenforoauth-link-help": "Verbannt Äre Wiki-Benotzerkont mat Ärem XenForo-Kont.",
+	"xenforoauth-auth-service-unknown-account": "Onbekannten XenForo-Kont"
+}

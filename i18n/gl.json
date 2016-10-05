@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
+	"xenforoauth": "Iniciar sesión con XenForo",
+	"xenforoauth-auth-service-name": "XenForo",
+	"xenforoauth-create": "Crear con XenForo",
+	"xenforoauth-desc": "Permite ós usuarios conectarse cunha conta de XenForo",
+	"xenforoauth-generic-error": "Houbo un erro inesperado. Por favor, volte atrás e probe de novo. Mensaxe: $1",
+	"xenforoauth-form-merge": "Ligar XenForo á conta wiki",
+	"xenforoauth-form-unlink": "Desligar XenForo da conta wiki",
+	"xenforoauth-link-other": "A súa conta de XenForo xa está ligada a outro usuario. Por favor, desligue a conexión ou contacte cun administrador, se non ten outra conta wiki.",
+	"xenforoauth-link-same": "A súa conta XenForo xa está ligada ó seu usuario, por iso non pode ligala de novo.",
+	"xenforoauth-error-no-authentication-workflow": "Solicitou continuar cun fluxo de traballo de autenticación XenForo xa comezado, pero non hai ningún comezado. Por favor, comece un novo fluxo de traballo de autenticación tentando conectarse de novo.",
+	"xenforoauth-loginbutton-help": "Autentícao coa súa conta de XenForo.",
+	"xenforoauth-link-help": "Ligar a súa conta wiki coa súa conta de XenForo.",
+	"xenforoauth-param-error-label": "Código de erro devolto por XenForo",
+	"xenforoauth-param-error-help": "En caso de erro de autenticación, o código de erro devolto por XenForo.",
+	"xenforoauth-param-code-label": "Identificador de acceso de XenForo",
+	"xenforoauth-param-code-help": "En caso de autentificación correcta, o identificador de acceso devolto por XenForo.",
+	"xenforoauth-change-account-not-linked": "Non pode eliminar unha conexión de conta de XenForo porque a súa conta non está conectada cunha conta de XenForo.",
+	"xenforoauth-auth-service-unknown-account": "Conta de XenForo descoñecida",
+	"xenforoauth-access-denied": "Imposible conectarse. Vostede denegou o acceso á información da súa conta de XenForo."
+}
