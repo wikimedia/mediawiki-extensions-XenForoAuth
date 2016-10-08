@@ -254,9 +254,10 @@ class XenForoPrimaryAuthenticationProvider extends AbstractPrimaryAuthentication
 				wfMessage( 'xenforoauth-error-no-authentication-workflow' )
 			);
 		}
-		$client = $this->getXenForoClient( $request->returnToUrl );
-		$client->authenticate( $request->accessToken );
-		$xfUser = new \XenForoBDClient\Users\User( $client );
+		$xfUser = $this->getAuthenticatedXFUserFromRequest( $request );
+		if ( $xfUser instanceof AuthenticationResponse ) {
+			return $xfUser;
+		}
 		try {
 			$userInfo = $xfUser->get( 'me' );
 			$xfUserId = $userInfo['user']['user_id'];
