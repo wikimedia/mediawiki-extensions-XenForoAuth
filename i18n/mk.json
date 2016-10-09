@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"xenforoauth": "Најава со XenForo",
+	"xenforoauth-auth-service-name": "XenForo",
+	"xenforoauth-create": "Создај со XenForo",
+	"xenforoauth-desc": "Дозволи корисниците да се најавуваат со сметка на XenForo",
+	"xenforoauth-generic-error": "Се појави грешка. Навратете се и обидете се повторно. Порака: $1",
+	"xenforoauth-form-merge": "Поврзи го XenForo со викисметката",
+	"xenforoauth-form-unlink": "Одвој ја сметката на XenForo од викисметката",
+	"xenforoauth-link-other": "Вашата сметка на XenForo е веќе сврзана со друг корисник. Прекинате ја врската или обратете се кај администратор доколку немате друга викисметка.",
+	"xenforoauth-link-same": "Вашата сметка на XenForo е веќе поврзана со вашиот корисник. Затоа, не можете да ја поврзете повторно.",
+	"xenforoauth-error-no-authentication-workflow": "Побаравте да го продолжите веќе започнатиот тек на заверката со XenForo, но нема ниедна започната заверка. Започнете нов тек со тоа што повторно ќе се најавите.",
+	"xenforoauth-loginbutton-help": "Ве заверува со вашата сметка на XenForo.",
+	"xenforoauth-link-help": "Поврзете ја вашата викисметка во сметката на XenForo.",
+	"xenforoauth-param-error-label": "Код на грешката што ја дава XenForo",
+	"xenforoauth-param-error-help": "Во случај на неуспешна заверка, кодот на грешката што ја дава XenForo.",
+	"xenforoauth-param-code-label": "Пристапна шифра од XenForo",
+	"xenforoauth-param-code-help": "Во случај на успешна заверка, пристапната шифра што ја дава XenForo.",
+	"xenforoauth-change-account-not-linked": "Не можете да ја отстраните врската со сметката на XenForo бидејќи вашата сметка не е ни поврзана со таква.",
+	"xenforoauth-auth-service-unknown-account": "Непозната сметка на XenForo",
+	"xenforoauth-access-denied": "Не можам да ве најавам. Го имате одбиено пристапот до информациите за вашата сметка на XenForo.",
+	"xenforoauth-local-exists": "Успешно се најавивте на вашата сметка на XenForo. Меѓутоа, на {{SITENAME}} веќе постои сметка со корисничко име $1 и таа не е поврзана со вашата сметка на XenForo, па затоа не можев да ве најавам. Погледајте ја [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists страницата за помош] со грешкава за да добиете повеќе информации."
+}
