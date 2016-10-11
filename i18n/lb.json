@@ -10,6 +10,7 @@
 	"xenforoauth-desc": "Erlaabt et de Benotzer fir sech mat engem XenForo-Kont anzeloggen",
 	"xenforoauth-generic-error": "Ups, do war e Feeler. Gitt w.e.g. zréck a probéiert nach eng Kéier. Message: $1",
 	"xenforoauth-form-merge": "XenForo am Wiki Benotzerkont verbannen",
+	"xenforoauth-form-unlink": "XenForo-Benotzerkont vun Ärem Wiki-Benotzerkont trennen",
 	"xenforoauth-link-same": "Ären XenForo-Kont ass scho mat Ärem Benotzer verbonnen, dofir kënnt Dir en net nach eng Kéier verbannen.",
 	"xenforoauth-loginbutton-help": "Authentifizéiert Iech mat Ärem XenForo-Kont.",
 	"xenforoauth-link-help": "Verbannt Äre Wiki-Benotzerkont mat Ärem XenForo-Kont.",
