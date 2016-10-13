@@ -19,6 +19,7 @@
 	"xenforoauth-param-error-label": "Código de erro retornado de XenForo",
 	"xenforoauth-param-error-help": "Erro retornado de XenForo em casa de falha de início de sessão.",
 	"xenforoauth-param-code-label": "Chave de acesso de XenForo",
+	"xenforoauth-param-code-help": "Chave de acesso dada pelo XenForo, em caso de um início de sessão bem sucedido.",
 	"xenforoauth-auth-service-unknown-account": "Conta XenForo desconhecida",
 	"xenforoauth-access-denied": "Não foi possível iniciar sessão. Negou o acesso à informação da sua conta XenForo",
 	"xenforoauth-local-exists": "Iniciou sessão com sucesso na sua conta no XenForo. Contudo, já existe uma conta com o nome de utilizador(a) $1 em {{SITENAME}} e não foi possível conectar a sua conta XenForo, por isso o início de sessão falhou. Consulte [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists a página de ajuda] sobre este erro para mais informação."
