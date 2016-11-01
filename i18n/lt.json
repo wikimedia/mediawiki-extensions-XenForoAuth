@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"xenforoauth": "Prisijungti su XenForo",
+	"xenforoauth-auth-service-name": "XenForo",
+	"xenforoauth-create": "Kurti su XenForo",
+	"xenforoauth-desc": "Leisti vartotojams prisijungti su XenForo paskyra",
+	"xenforoauth-generic-error": "Oi, įvyko klaida. Prašome grįžti ir bandyti dar kartą. Pranešimas: $1",
+	"xenforoauth-form-merge": "Susieti XenForo su viki paskyra",
+	"xenforoauth-form-unlink": "Atsieti XenForo nuo viki paskyros",
+	"xenforoauth-link-other": "Jūsų XenForo paskyra jau yra susieta su kitu vartotoju. Prašome atsieti tą ryšį arba susisiekti su administratoriumi jei neturi kitų viki paskyrų.",
+	"xenforoauth-link-same": "Jūsų XenForo paskyra jau yra susieta su jūsų vartotoju, tad negalite jų vėl susieti.",
+	"xenforoauth-link-help": "Susiekite savo viki paskyrą su savo XenForo paskyra.",
+	"xenforoauth-param-error-label": "Klaidos kodas gautas iš XenForo",
+	"xenforoauth-param-code-label": "Prieigos raktas iš XenForo",
+	"xenforoauth-change-account-not-linked": "Negali pašalinti XenForo paskyros sąsajos, nes jūsų paskyra nėra susieta su XenForo paskyra.",
+	"xenforoauth-auth-service-unknown-account": "Nežinoma XenForo paskyra",
+	"xenforoauth-access-denied": "Negalima prisijungti. Jūs uždraudėte prieigą prie savo XenForo paskyros informacijos.",
+	"xenforoauth-local-exists": "Jūs sėkmingai prisijungėte prie savo XenForo paskyros, tačiau paskyra su vartotoju vardu $1 jau egzistuoja {{SITENAME}} ir nėra susieta su jūsų XenForo paskyra, todėl negali būti prijungtas. Žiūrėkite [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists pagalbos puslapį] šiai klaidai dėl daugiau informacijos."
+}
