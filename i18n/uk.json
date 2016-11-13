@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"xenforoauth": "Увійти через XenForo",
+	"xenforoauth-auth-service-name": "XenForo",
+	"xenforoauth-create": "Створити через XenForo",
+	"xenforoauth-desc": "Дозволити користувачам входити в систему через обліковий запис XenForo",
+	"xenforoauth-generic-error": "Ой, сталася помилка. Будь ласка, поверніться назад і спробуйте ще раз. Повідомлення: $1",
+	"xenforoauth-form-merge": "Приєднати XenForo до облікового запису вікі",
+	"xenforoauth-form-unlink": "Від'єднати XenForo від облікового запису вікі",
+	"xenforoauth-link-other": "Ваш обліковий запис XenForo уже зв'язано з іншим користувачем. Будь ласка, від'єднайте його або зверніться до адміністратора, якщо у Вас немає іншого облікового запису вікі.",
+	"xenforoauth-link-same": "Ваш обліковий запис XenForo вже пов'язаний з Вашим користувачем, тож Ви не зможете прив'язати його ще раз.",
+	"xenforoauth-error-no-authentication-workflow": "Ви просили продовжити вже початий процес автентифікації XenForo, але початого процесу немає. Будь ласка, почніть новий процес автентифікації, спробувавши увійти ще раз.",
+	"xenforoauth-loginbutton-help": "Автентифікує Вас за допомогою Вашого облікового запису XenForo.",
+	"xenforoauth-link-help": "Пов'яжіть свій обліковий запис у вікі з обліковим записом XenForo.",
+	"xenforoauth-param-error-label": "Код помилки, отриманий із XenForo",
+	"xenforoauth-param-error-help": "У випадку помилки автентифікації, код помилки, отриманий із XenForo.",
+	"xenforoauth-param-code-label": "Токен доступу із XenForo",
+	"xenforoauth-param-code-help": "У випадку успішної автентифікації, токен доступу, отриманий  із XenForo.",
+	"xenforoauth-change-account-not-linked": "Ви не можете вилучити прив'язку до облікового запису XenForo, оскільки Ваш облівоий запис не пов'язаний з обліковим записом XenForo.",
+	"xenforoauth-auth-service-unknown-account": "Невідомий обліковий запис XenForo",
+	"xenforoauth-access-denied": "Не вдалося увійти. Ви заборонили доступ до інформації про свій обліковий запис XenForo.",
+	"xenforoauth-local-exists": "Ви успішно ввійшли у свій обліковий запис XenForo. Однак обліковий запис з іменем користувача $1 вже існує на сайті {{SITENAME}}, і не пов'язаний з Вашим обліковим записом {{SITENAME}}, тож Ви не могли увійти в систему. Див. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists сторінку довідки], щоб отримати більше інформації про цю помилку."
+}
