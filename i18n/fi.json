@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"xenforoauth": "Kirjaudu sisään XenForolla",
+	"xenforoauth-auth-service-name": "XenForo",
+	"xenforoauth-form-merge": "Linkitä XenForo wiki-tiliin",
+	"xenforoauth-form-unlink": "Pura XenForo linkitys wiki-tiliin",
+	"xenforoauth-link-other": "XenForo-tilisi on jo liitetty toiseen käyttäjään. Pura linkitys tai tai ota yhteyttä järjestelmänvalvojaan, jos sinulla ei ole muita wiki-tilejä.",
+	"xenforoauth-link-same": "XenForo-tilisi on jo linkitetty käyttäjään, joten et voi linkittää sitä uudelleen.",
+	"xenforoauth-auth-service-unknown-account": "Tuntematon XenForo-tili"
+}
