@@ -14,6 +14,7 @@
 	"xenforoauth-create": "Used as label for the button shown in [[Special:CreateAccount]].",
 	"xenforoauth-desc": "{{desc|name=XenForoAuth|url=https://www.mediawiki.org/wiki/Extension:XenForoAuth}}",
 	"xenforoauth-generic-error": "Generic error message for errors with no specific error message.\n\nParameters:\n* $1 - a short description of the error (e.g. Database error)",
+	"xenforoauth-external-error": "Error message if the request to the external site results in an error and no data could be refused. This message is used to indicate, that the problem is most likely related to the third party authentication site, not this wiki.\n* $1 - The error message provided by the external site, if there was one.",
 	"xenforoauth-form-merge": "Title of button to merge the wikiaccount and XenForo account, if the user is logged into a wikiaccount (and not connected to a XenForo account) and navigates to Special:XenForoLogin.",
 	"xenforoauth-form-unlink": "Title of button to unlink the connection between the wiki user account and XenForo account.",
 	"xenforoauth-link-other": "The XenForo account is already linked to a wiki user, but not to the actual logged in wiki user. To link the XenForo account with the actual wiki account, the user must unlink the connection wit the other wiki account, only one connection per XenForo account is allowed.",

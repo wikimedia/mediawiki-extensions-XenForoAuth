@@ -53,6 +53,12 @@ class XenForoPrimaryAuthenticationProvider extends AbstractPrimaryAuthentication
 
 		try {
 			$userInfo = $xfUser->get( 'me' );
+			if ( $userInfo === false ) {
+				$errors = implode( $xfUser->getErrors(), ', ' );
+				return AuthenticationResponse::newFail(
+					wfMessage( 'xenforoauth-external-error', $errors )
+				);
+			}
 			$connectedUser = XenForoUser::getUserFromXFUserId( $userInfo['user']['user_id'] );
 			$mwUser = User::newFromName( $userInfo['user']['username'] );
 			if ( $connectedUser ) {

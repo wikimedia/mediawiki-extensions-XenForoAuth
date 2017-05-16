@@ -9,6 +9,7 @@
 	"xenforoauth-create": "Create with XenForo",
 	"xenforoauth-desc": "Allow users to login with a XenForo account",
 	"xenforoauth-generic-error": "Oops, there was an error. Please go back and try again. Message: $1",
+	"xenforoauth-external-error": "The external site refused to authenticate you or encountered an error. Please try it again or contact the administrator of the site. The message was: $1",
 	"xenforoauth-form-merge": "Link XenForo to wiki account",
 	"xenforoauth-form-unlink": "Unlink XenForo from wiki account",
 	"xenforoauth-link-other": "Your XenForo account is already linked to another user. Please unlink the connection or contact an administrator, if you have no other wiki account.",
