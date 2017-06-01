@@ -9,6 +9,7 @@
 	"xenforoauth-create": "Créer avec XenForo",
 	"xenforoauth-desc": "Autoriser les utilisateurs à se connecter avec un compte XenForo",
 	"xenforoauth-generic-error": "Oups, une erreur s’est produite. Veuillez revenir en arrière et réessayer. Message : $1",
+	"xenforoauth-external-error": "Le site externe a refusé de vous authentifier ou a rencontré une erreur. Veuillez réessayer ou contacter l’administrateur du site. Le message était : $1",
 	"xenforoauth-form-merge": "Lier XenForo au compte wiki",
 	"xenforoauth-form-unlink": "Supprimer le lien de XenForo du compte wiki",
 	"xenforoauth-link-other": "Votre compte XenForo est déjà lié à un autre utilisateur. Veuillez supprimer cette connexion ou contacter un administrateur, si vous n’avez pas d’autre compte wiki.",

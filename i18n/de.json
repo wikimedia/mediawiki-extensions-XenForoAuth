@@ -13,6 +13,7 @@
 	"xenforoauth-create": "Mit XenForo erstellen",
 	"xenforoauth-desc": "Erlaubt es Benutzern, sich mit einem XenForo-Konto anzumelden.",
 	"xenforoauth-generic-error": "Oops! Es gab ein Problem. Bitte gehe zurück und versuche die Aktion erneut. Fehlernachricht: $1",
+	"xenforoauth-external-error": "Die externe Website hat deine Authentifizierung abgelehnt oder es ist ein Fehler aufgetreten. Bitte versuche es erneut oder kontaktiere den Websiteadministrator. Die Nachricht war: $1",
 	"xenforoauth-form-merge": "XenForo- und Wiki-Benutzerkonto verbinden",
 	"xenforoauth-form-unlink": "XenForo-Benutzerkonto vom Wiki-Benutzerkonto trennen",
 	"xenforoauth-link-other": "Dein XenForo-Benutzerkonto ist bereits mit einem anderen Benutzer verknüpft. Bitte trenne die Verbindung oder kontaktiere einen Administrator, falls du kein weiteres Wiki-Benutzerkonto hast.",

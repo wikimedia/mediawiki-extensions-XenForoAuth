@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fitoschido"
+			"Fitoschido",
+			"Javiersanp"
 		]
 	},
 	"xenforoauth": "Acceder con XenForo",
@@ -9,6 +10,7 @@
 	"xenforoauth-create": "Crear con XenForo",
 	"xenforoauth-desc": "Permitir a los usuarios acceder mediante una cuenta de XenForo",
 	"xenforoauth-generic-error": "Se produjo un error. Regresa a la página anterior e inténtalo de nuevo. Mensaje: $1",
+	"xenforoauth-external-error": "El sitio externo rechazó autenticarte o encontró un error. Por favor, pruebe otra vez o contacte con el administrador del sitio. El mensaje era: $1",
 	"xenforoauth-form-merge": "Enlazar XenForo con la cuenta del wiki",
 	"xenforoauth-form-unlink": "Desenlazar XenForo de la cuenta del wiki",
 	"xenforoauth-link-other": "Tu cuenta de XenForo ya está enlazada con otro usuario. Desenlázala o ponte en contacto con un administrador si no tienes otra cuenta en el wiki.",
