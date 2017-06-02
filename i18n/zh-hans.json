@@ -9,6 +9,7 @@
 	"xenforoauth-create": "使用XenForo创建",
 	"xenforoauth-desc": "允许用户通过使用XenForo账户登录",
 	"xenforoauth-generic-error": "天哪，发生了一个错误。请返回并重试。消息：$1",
+	"xenforoauth-external-error": "外部网站拒绝验证您，或遇到错误。请再次尝试，或联络网站管理员。消息如下：$1",
 	"xenforoauth-form-merge": "关联XenForo至wiki账户",
 	"xenforoauth-form-unlink": "取消Google账户和XenForo的关联",
 	"xenforoauth-link-other": "您的XenForo账户已连接至其他用户。请取消连接或联络管理员，如果您没有其他wiki账户的话。",
