@@ -7,6 +7,7 @@
 	"xenforoauth": "XenForo로 로그인",
 	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-generic-error": "죄송합니다, 오류가 있었습니다. 뒤로 돌아가서 다시 시도해 주세요. 메시지: $1",
+	"xenforoauth-external-error": "외부 사이트가 인증을 거부했거나 오류가 발생했습니다. 다시 시도하거나 사이트의 관리자에게 문의하십시오. 메시지는 다음과 같습니다: $1",
 	"xenforoauth-param-error-label": "XenForo에서 오류 코드가 반환되었습니다",
 	"xenforoauth-auth-service-unknown-account": "알 수 없는 XenForo 계정"
 }
