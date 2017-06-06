@@ -8,6 +8,9 @@
 	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Crear con XenForo",
 	"xenforoauth-desc": "Permite a los usuarios aniciar sesión con una cuenta de XenForo",
+	"xenforoauth-generic-error": "Ai, hebo un error. Torna a la páxina anterior ya inténtalo de nueves. Mensaxe: $1",
+	"xenforoauth-external-error": "El sitiu esternu refugó autentificate o alcontrasti un error. Téntalo de nueves o comunícate col alministrador del sitiu. El mensaxe emitíu foi: $1",
 	"xenforoauth-form-merge": "Enllazar XenForo con una cuenta de la wiki",
-	"xenforoauth-form-unlink": "Desenllazar XenForo d'una cuenta de la wiki"
+	"xenforoauth-form-unlink": "Desenllazar XenForo d'una cuenta de la wiki",
+	"xenforoauth-link-other": "La to cuenta de XenForo yá ta enllazada con otru usuariu. Desenllaza la conexón o comunícate con un alministrador si nun tienes otra cuenta na wiki."
 }
