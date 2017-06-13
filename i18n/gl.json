@@ -9,6 +9,7 @@
 	"xenforoauth-create": "Crear con XenForo",
 	"xenforoauth-desc": "Permite ós usuarios conectarse cunha conta de XenForo",
 	"xenforoauth-generic-error": "Houbo un erro inesperado. Por favor, volte atrás e probe de novo. Mensaxe: $1",
+	"xenforoauth-external-error": "O sitio externo rechazou a súa autenticación ou houbo un erro. Por favor, inténteo de novo ou póñase en contacto co administrador do sitio. A mensaxe foi: $1",
 	"xenforoauth-form-merge": "Ligar XenForo á conta wiki",
 	"xenforoauth-form-unlink": "Desligar XenForo da conta wiki",
 	"xenforoauth-link-other": "A súa conta de XenForo xa está ligada a outro usuario. Por favor, desligue a conexión ou contacte cun administrador, se non ten outra conta wiki.",
