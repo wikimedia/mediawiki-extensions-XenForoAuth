@@ -14,7 +14,6 @@ use MediaWiki\Auth\ButtonAuthenticationRequest;
  */
 class XenForoAuthenticationRequest extends ButtonAuthenticationRequest {
 	public function __construct( \Message $label, \Message $help ) {
-
 		parent::__construct(
 			XenForoPrimaryAuthenticationProvider::XENFORO_BUTTONREQUEST_NAME,
 			$label,
