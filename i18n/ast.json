@@ -12,5 +12,17 @@
 	"xenforoauth-external-error": "El sitiu esternu refugó autentificate o alcontrasti un error. Téntalo de nueves o comunícate col alministrador del sitiu. El mensaxe emitíu foi: $1",
 	"xenforoauth-form-merge": "Enllazar XenForo con una cuenta de la wiki",
 	"xenforoauth-form-unlink": "Desenllazar XenForo d'una cuenta de la wiki",
-	"xenforoauth-link-other": "La to cuenta de XenForo yá ta enllazada con otru usuariu. Desenllaza la conexón o comunícate con un alministrador si nun tienes otra cuenta na wiki."
+	"xenforoauth-link-other": "La to cuenta de XenForo yá ta enllazada con otru usuariu. Desenllaza la conexón o comunícate con un alministrador si nun tienes otra cuenta na wiki.",
+	"xenforoauth-link-same": "La to cuenta de XenForo yá ta enllazada col to usuariu; nun puedes enllazala nuevamente.",
+	"xenforoauth-error-no-authentication-workflow": "Solicitasti siguir con un fluxu d'identificación de XenForo esistente, pero nun hai nengunu que yá s'empezara. Empecipia nuevamente un fluxu d'identificación tentando aniciar sesión nuevamente.",
+	"xenforoauth-loginbutton-help": "T'identifica cola to cuenta de XenForo.",
+	"xenforoauth-link-help": "Enllaza la cuenta de la wiki con la de XenForo.",
+	"xenforoauth-param-error-label": "XenForo devolvió un códigu d'error",
+	"xenforoauth-param-error-help": "En casu d'un fallu d'identificación, el códigu d'error devueltu por XenForo.",
+	"xenforoauth-param-code-label": "Pase d'accesu de XenForo",
+	"xenforoauth-param-code-help": "En casu d'identificación correuta, el pase d'accesu devueltu por XenForo.",
+	"xenforoauth-change-account-not-linked": "Nun puedes desaniciar una conexón de cuenta de XenForo porque la to cuenta nun ta conectada con nenguna cuenta de XenForo.",
+	"xenforoauth-auth-service-unknown-account": "Cuenta de XenForo desconocida",
+	"xenforoauth-access-denied": "Nun pudo aniciase sesión. Refugasti l'accesu a la información de la cuenta de XenForo.",
+	"xenforoauth-local-exists": "Aniciasti sesión correutamente na cuenta de XenForo. Sicasí, yá esiste una cuenta en {{SITENAME}} col nome d'usuariu «$1» que nun ta conectada cola cuenta de XenForo, polo que nun pudisti aniciar sesión na wiki. Visita [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists la páxina d'ayuda] d'esti error pa más información."
 }
