@@ -46,19 +46,4 @@ class Hooks {
 			unset( $formDescriptor['xenforoauth']['type'] );
 		}
 	}
-
-	/**
-	 * ResourceLoaderGetLessVars hook handler
-	 *
-	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ResourceLoaderGetLessVars
-	 * @param array &$lessVars Variables already added
-	 */
-	public static function onResourceLoaderGetLessVars( &$lessVars ) {
-		$config = MediaWikiServices::getInstance()->getConfigFactory()->makeConfig( 'xenforoauth' );
-		$lessVars = array_merge( $lessVars,
-			[
-				'wgXenForoAuthButtonIcon' => $config->get( 'XenForoAuthButtonIcon' )
-			]
-		);
-	}
 }

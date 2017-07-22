@@ -19,8 +19,7 @@
 	},
 	"Hooks": {
 		"LoadExtensionSchemaUpdates": "XenForoAuth\\Hooks::onLoadExtensionSchemaUpdates",
-		"AuthChangeFormFields": "XenForoAuth\\Hooks::onAuthChangeFormFields",
-		"ResourceLoaderGetLessVars": "XenForoAuth\\Hooks::onResourceLoaderGetLessVars"
+		"AuthChangeFormFields": "XenForoAuth\\Hooks::onAuthChangeFormFields"
 	},
 	"AutoloadClasses": {
 		"XenForoAuth\\Auth\\XenForoPrimaryAuthenticationProvider": "includes/auth/XenForoPrimaryAuthenticationProvider.php",
@@ -30,7 +29,8 @@
 		"XenForoAuth\\Auth\\XenForoUserInfoAuthenticationRequest": "includes/auth/XenForoUserInfoAuthenticationRequest.php",
 		"XenForoAuth\\HTMLXenForoButtonField": "includes/htmlform/HTMLXenForoButtonField.php",
 		"XenForoAuth\\XenForoUser": "includes/XenForoUser.php",
-		"XenForoAuth\\Hooks": "includes/Hooks.php"
+		"XenForoAuth\\Hooks": "includes/Hooks.php",
+		"XenForoAuth\\XenForoResourceLoaderModule": "includes/XenForoResourceLoaderModule.php"
 	},
 	"AuthManagerAutoConfig": {
 		"primaryauth": {
@@ -42,6 +42,7 @@
 	},
 	"ResourceModules": {
 		"ext.XenForo.userlogincreate.style": {
+			"class": "XenForoAuth\\XenForoResourceLoaderModule",
 			"styles": "style/ext.XenForo.userlogincreate.less",
 			"position": "top",
 			"targets": [
@@ -50,6 +51,7 @@
 			]
 		},
 		"ext.XenForo.userlogincreate.ooui.style": {
+			"class": "XenForoAuth\\XenForoResourceLoaderModule",
 			"styles": "style/ext.XenForo.userlogincreate.ooui.less",
 			"position": "top",
 			"targets": [
