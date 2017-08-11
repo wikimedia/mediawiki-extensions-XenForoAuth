@@ -25,7 +25,7 @@ class XenForoUser {
 	 * will start a request to the XenFor API to find out the information about
 	 * the XenForo User.
 	 *
-	 * @param integer $xfUserId The XenForo User ID
+	 * @param int $xfUserId The XenForo User ID
 	 * @return XenForoUser
 	 */
 	public static function newFromXFUserId( $xfUserId ) {
@@ -123,7 +123,7 @@ class XenForoUser {
 	 * Loads the XenForo user Id from a User Id set to this object.
 	 *
 	 * @param User $user The user to get the XenForo user Id for
-	 * @param integer $flags User::READ_* constant bitfield
+	 * @param int $flags User::READ_* constant bitfield
 	 * @return null|int Null, if no XenForo user ID connected with this User ID, the id
 	 * otherwise
 	 */
@@ -156,7 +156,7 @@ class XenForoUser {
 	 * User Id set to this object.
 	 *
 	 * @param string $xfUserId The XenForo User ID to get the user to
-	 * @param integer $flags User::READ_* constant bitfield
+	 * @param int $flags User::READ_* constant bitfield
 	 * @return null|User The local User account connected with the XenForo user ID if
 	 * the XenForo user ID is connected to an User, null otherwise.
 	 */
