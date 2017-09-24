@@ -130,7 +130,7 @@ class XenForoUser {
 	public static function getXFUserIdFromUser( User $user, $flags = User::READ_LATEST ) {
 		$db = ( $flags & User::READ_LATEST )
 			? wfGetDB( DB_MASTER )
-			: wfGetDB( DB_SLAVE );
+			: wfGetDB( DB_REPLICA );
 
 		$s = $db->select(
 			'user_xenforo_user',
@@ -163,7 +163,7 @@ class XenForoUser {
 	public static function getUserFromXFUserId( $xfUserId, $flags = User::READ_LATEST ) {
 		$db = ( $flags & User::READ_LATEST )
 			? wfGetDB( DB_MASTER )
-			: wfGetDB( DB_SLAVE );
+			: wfGetDB( DB_REPLICA );
 
 		$s = $db->selectRow(
 			'user_xenforo_user',
