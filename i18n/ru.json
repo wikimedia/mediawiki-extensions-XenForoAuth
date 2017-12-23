@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm"
+		]
+	},
+	"xenforoauth": "Авторизоваться через XenForo",
+	"xenforoauth-auth-service-name": "XenForo",
+	"xenforoauth-create": "Зарегистрироваться через XenForo",
+	"xenforoauth-desc": "Позволяет пользователям авторизовываться с помощью аккаунта XenForo",
+	"xenforoauth-generic-error": "К сожалению, произошла ошибка. Пожалуйста, вернитесь назад и повторите попытку. Сообщение: $1",
+	"xenforoauth-external-error": "Внешний сайт отказался авторизовать вас или столкнулся с ошибкой. Пожалуйста, попробуйте снова или свяжитесь с администратором сайта. Сообщение было: $1",
+	"xenforoauth-form-merge": "Связать учётную запись XenForo с вики",
+	"xenforoauth-form-unlink": "Отменить связь учётной записи XenForo c вики",
+	"xenforoauth-link-other": "Ваша учётная запись XenForo уже привязана к другому участнику. Пожалуйста, уберите эту связь или свяжитесь с администратором, если у вас нет других вики-аккаунтов.",
+	"xenforoauth-link-same": "Ваша учётная запись XenForo уже привязана к вашему аккаунту, вы не можете привязать её повторно.",
+	"xenforoauth-error-no-authentication-workflow": "Вы запросили продолжения уже начатого процесса аутентификации через XenForo, однако незавершённых процессов аутентификации нет. Пожалуйста, начните новый процесс аутентификации, попытавшись авторизоваться повторно.",
+	"xenforoauth-loginbutton-help": "Аутентифицирует вас с помощью учётной записи XenForo.",
+	"xenforoauth-link-help": "Связывает вашу учётную запись в вики и на XenForo.",
+	"xenforoauth-param-error-label": "Код ошибки, возвращённый XenForo",
+	"xenforoauth-param-error-help": "Код ошибки, возвращённый XenForo в случае неудачной аутентификации.",
+	"xenforoauth-param-code-label": "Токен доступа из XenForo",
+	"xenforoauth-param-code-help": "Токен доступа, возвращённый XenForo в случае удачной аутентификации.",
+	"xenforoauth-change-account-not-linked": "Вы не можете удалить связь с учётной записью XenForo, поскольку ваша учётная запись не связана с XenForo.",
+	"xenforoauth-auth-service-unknown-account": "Неизвестный аккаунт XenForo",
+	"xenforoauth-access-denied": "Невозможно авторизоваться. Вы запретили доступ к информации о вашей учётной записи XenForo.",
+	"xenforoauth-local-exists": "Вы успешно авторизовались в свою учётную запись XenForo. Однако, учётная запись с именем $1 уже существует на {{SITENAME}} и не связана с вашей учётной записью XenForo, поэтому вы не можете быть авторизованы. См. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists справочную страницу] об этой ошибке для получения более подробной информации."
+}
