@@ -111,7 +111,7 @@ class XenForoUser {
 	/**
 	 * Check, if the XenForo user ID is already connected to another wiki account or not.
 	 *
-	 * @param $id
+	 * @param string $xfUserId
 	 * @param int $flags
 	 * @return bool
 	 */

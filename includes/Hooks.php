@@ -29,8 +29,8 @@ class Hooks {
 	 *
 	 * @param array $requests
 	 * @param array $fieldInfo
-	 * @param array $formDescriptor
-	 * @param $action
+	 * @param array &$formDescriptor
+	 * @param string $action
 	 */
 	public static function onAuthChangeFormFields( array $requests, array $fieldInfo,
 		array &$formDescriptor, $action
