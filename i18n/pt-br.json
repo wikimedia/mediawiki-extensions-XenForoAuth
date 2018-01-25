@@ -7,5 +7,22 @@
 	"xenforoauth": "Iniciar sessão com XenForo",
 	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Criar com XenForo",
-	"xenforoauth-desc": "Permitir que os usuários façam o login com uma conta XenForo"
+	"xenforoauth-desc": "Permitir que os usuários façam o login com uma conta XenForo",
+	"xenforoauth-generic-error": "Ocorreu um erro inesperado. Volte atrás e tente novamente, por favor. Mensagem: $1",
+	"xenforoauth-external-error": "O site externo recusou a sua autenticação ou encontrou um erro. Tente novamente ou contacte um administrador do site. A mensagem foi: $1",
+	"xenforoauth-form-merge": "Ligar XenForo à conta wiki",
+	"xenforoauth-form-unlink": "Desligar XenForo da conta wiki",
+	"xenforoauth-link-other": "Sua conta XenForo já está vinculada a outro usuário. Desvincule a conexão ou entre em contato com um administrador, se você não possui nenhuma outra conta do wiki.",
+	"xenforoauth-link-same": "A sua conta XenForo já está ligada a outro usuário, por isso não pode ligá-la novamente.",
+	"xenforoauth-error-no-authentication-workflow": "Pediu a continuação de um processo de autenticação XenForo em progresso, mas não há nenhum processo que já esteja em progresso. Inicie um novo processo de autenticação, tentando entrar outra vez, por favor.",
+	"xenforoauth-loginbutton-help": "Inicia a sessão através da sua conta XenForo.",
+	"xenforoauth-link-help": "Ligar a sua conta wiki com a sua conta XenForo",
+	"xenforoauth-param-error-label": "Código de erro devolvido por XenForo",
+	"xenforoauth-param-error-help": "O erro devolvido pelo XenForo, no caso de uma falha de autenticação.",
+	"xenforoauth-param-code-label": "Chave de acesso do XenForo",
+	"xenforoauth-param-code-help": "Em caso de autenticação, a chave de acesso devolvida pelo XenForo.",
+	"xenforoauth-change-account-not-linked": "Não pode remover uma ligação de conta XenForo, porque a sua conta não está ligada a nenhuma conta XenForo.",
+	"xenforoauth-auth-service-unknown-account": "Conta XenForo desconhecida",
+	"xenforoauth-access-denied": "Não foi possível iniciar sessão. Você negou o acesso à informação da sua conta XenForo.",
+	"xenforoauth-local-exists": "Iniciou sessão na sua conta XenForo. Contudo, já existe uma conta com o nome de usuário $1 na wiki {{SITENAME}} e não está ligada à sua conta XenForo, por isso não foi possível iniciar sessão na wiki. Consulte [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists a página de ajuda] sobre este erro para mais informação."
 }
