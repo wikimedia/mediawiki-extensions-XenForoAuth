@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Hamilton Abreu",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Athena in Wonderland"
 		]
 	},
 	"xenforoauth": "Iniciar sessão com XenForo",
@@ -10,7 +11,7 @@
 	"xenforoauth-create": "Criar com XenForo",
 	"xenforoauth-desc": "Permite que os utilizadores iniciem sessão com uma conta XenForo",
 	"xenforoauth-generic-error": "Ocorreu um erro. Por favor regresse ao passo anterior e tente novamente. Mensagem: $1",
-	"xenforoauth-external-error": "O site externo recusou a sua autenticação ou encontrou um erro. Tente novamente ou contacte um administrador do site. A mensagem foi: $1",
+	"xenforoauth-external-error": "O sítio externo recusou a sua autenticação ou encontrou um erro. Tente novamente ou contacte um administrador do sítio. A mensagem foi: $1",
 	"xenforoauth-form-merge": "Ligar XenForo à conta wiki",
 	"xenforoauth-form-unlink": "Desligar XenForo da conta wiki",
 	"xenforoauth-link-other": "A sua conta XenForo já está ligada a outro utilizador. Desfaça essa ligação ou contacte um administrador, se não tem outra conta wiki.",
