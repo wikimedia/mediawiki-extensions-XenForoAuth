@@ -116,7 +116,7 @@ class XenForoUser {
 	 * @return bool
 	 */
 	public static function isXFUserIdFree( $xfUserId, $flags = User::READ_LATEST ) {
-		return $user = self::getUserFromXFUserId( $xfUserId, $flags ) === null;
+		return self::getUserFromXFUserId( $xfUserId, $flags ) === null;
 	}
 
 	/**
