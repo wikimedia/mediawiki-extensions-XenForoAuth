@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"xenforoauth": "以 XenForo 登入",
+	"xenforoauth-auth-service-name": "XenForo",
+	"xenforoauth-create": "以 XenForo 建立",
+	"xenforoauth-desc": "允許使用者以 XenForo 帳號登入",
+	"xenforoauth-generic-error": "啊呀，出現錯誤。請返回並再重試。訊息：$1",
+	"xenforoauth-external-error": "外部網站拒絕對您驗證或是發生錯誤，請重試或聯絡該外部網站的管理員。訊息為：$1",
+	"xenforoauth-form-merge": "連結 XenForo 至 wiki 帳號",
+	"xenforoauth-form-unlink": "取消 XenForo 與 wiki 帳號之間的連結",
+	"xenforoauth-link-other": "您的 XenForo 帳號已連結至其他使用者。若您並沒有其它 wiki 帳號的話，請取消連接或聯絡管理員。",
+	"xenforoauth-link-same": "您的 XenForo 帳號已連結至您的使用者，因此您無法再連結它。",
+	"xenforoauth-error-no-authentication-workflow": "您已請求來繼續一個已起始的 XenForo 驗證流程，但目前並沒有這樣起始內容。請透過重新登入來開始一個新的驗證流程。",
+	"xenforoauth-loginbutton-help": "以您的 XenForo 帳號來認證。",
+	"xenforoauth-link-help": "以您的 XenForo 帳號來連結您的 wiki 帳號。",
+	"xenforoauth-param-error-label": "從 XenForo 回傳的錯誤代碼",
+	"xenforoauth-param-error-help": "在認證失敗情況下，回傳來自 XenForo 的錯誤代碼。",
+	"xenforoauth-param-code-label": "來自 XenForo 的存取令牌",
+	"xenforoauth-param-code-help": "在認證成功情況下，回傳來自 XenForo 的存取令牌。",
+	"xenforoauth-change-account-not-linked": "您無法對 XenForo 帳號連接做出移除，因為您的帳號並沒有與 XenForo 帳號連接。",
+	"xenforoauth-auth-service-unknown-account": "不明的 XenForo 帳號",
+	"xenforoauth-access-denied": "無法登入。您拒絕了對您的 XenForo 帳號訊息做出存取。",
+	"xenforoauth-local-exists": "您已成功登入您的 XenForo 帳號。然而有一個名為 $1 的帳號已存在於 {{SITENAME}}，而且並沒有與您的 XenForo 帳號連結，因此您無法登入。請查看[https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists 幫助頁面]來獲得有關錯誤的更多訊息。"
+}
