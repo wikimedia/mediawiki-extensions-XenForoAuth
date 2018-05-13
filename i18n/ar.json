@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"xenforoauth": "تسجيل الدخول باستخدام XenForo",
+	"xenforoauth-auth-service-name": "زين فورو",
+	"xenforoauth-create": "إنشاء باستخدام زين فورو",
+	"xenforoauth-desc": "السماح للمستخدمين بتسجيل الدخول باستخدام حساب XenForo الخاص بهم",
+	"xenforoauth-generic-error": "عفوا، حدث خطأ; الرجاء العودة والمحاولة مجددا، الرسالة: $1",
+	"xenforoauth-external-error": "رفض الموقع الخارجي مصادقتك أو واجهك خطأ; يُرجَى إعادة المحاولة أو الاتصال بإداري الموقع، كانت الرسالة: $1",
+	"xenforoauth-form-merge": "ربط زينفورو بحساب الويكي",
+	"xenforoauth-form-unlink": "إلغاء ربط زينفورو بحساب الويكي",
+	"xenforoauth-link-other": "حساب زينفورو مرتبط بالفعل بمستخدم آخر; يُرجَى إلغاء الربط أو الاتصال بإداري، إذا لم يكن لديك حساب ويكي آخر.",
+	"xenforoauth-link-same": "حساب زينفورو مرتبط بالفعل بمستخدمك; لذلك لا يمكنك ربطه مرة أخرى.",
+	"xenforoauth-error-no-authentication-workflow": "لقد طلبت مواصلة سير عمل مصادقة زينفورو بدأ بالفعل، ولكن لا يوجد أي واحد بدأ بالفعل; يُرجَى بدء سير عمل مصادقة جديد من خلال محاولة تسجيل الدخول مرة أخرى.",
+	"xenforoauth-loginbutton-help": "يصادق عليك بحساب زينفورو الخاص بك.",
+	"xenforoauth-link-help": "اربط حساب الويكي بحساب زينفورو الخاص بك.",
+	"xenforoauth-param-error-label": "تم إرجاع رمز الخطأ من زينفورو",
+	"xenforoauth-param-error-help": "في حالة حدوث فشل في المصادقة، يتم إرجاع رمز الخطأ من زينفورو.",
+	"xenforoauth-param-code-label": "رمز وصول من زينفورو",
+	"xenforoauth-param-code-help": "في حالة وجود مصادقة ناجحة، يتم إرجاع الرمز المميز للوصول من زينفورو.",
+	"xenforoauth-change-account-not-linked": "لا يمكنك إزالة اتصال حساب زينفورو; لأن حسابك غير متصل بحساب زينفورو.",
+	"xenforoauth-auth-service-unknown-account": "حساب زينفورو غير معروف",
+	"xenforoauth-access-denied": "غير قادر على تسجيل الدخول; رفضت الوصول إلى معلومات حسابك في زينفورو.",
+	"xenforoauth-local-exists": "لقد قمت بتسجيل الدخول بنجاح إلى حسابك في زينفورو، ومع ذلك، يوجد بالفعل حساب باسم المستخدم $1 في {{SITENAME}} ولا يرتبط بحساب زينفورو الخاص بك; لذلك لا يمكن تسجيل الدخول; راجع [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists صفحة المساعدة] لهذا الخطأ للحصول على مزيد من المعلومات."
+}
