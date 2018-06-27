@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aftabuzzaman"
+			"Aftabuzzaman",
+			"আফতাবুজ্জামান"
 		]
 	},
 	"xenforoauth-generic-error": "ওহো, একটি ত্রুটি হয়েছে। দয়া করে ফিরে যান এবং আবার চেষ্টা করুন। বার্তা: $1",
