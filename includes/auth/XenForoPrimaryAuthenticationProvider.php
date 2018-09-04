@@ -334,8 +334,8 @@ class XenForoPrimaryAuthenticationProvider extends AbstractPrimaryAuthentication
 	 * @param $request
 	 * @return \XenForoBDClient\Users\User|AuthenticationResponse
 	 */
-	private function getAuthenticatedXFUserFromRequest( XenForoServerAuthenticationRequest
-		$request
+	private function getAuthenticatedXFUserFromRequest(
+		XenForoServerAuthenticationRequest $request
 	) {
 		if ( !$request->accessToken || $request->errorCode ) {
 			switch ( $request->errorCode ) {
