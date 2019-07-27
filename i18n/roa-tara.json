@@ -4,6 +4,25 @@
 			"Joetaras"
 		]
 	},
+	"xenforoauth": "Tràse cu XenForo",
 	"xenforoauth-auth-service-name": "XenForo",
-	"xenforoauth-create": "ccreje cu XenForo"
+	"xenforoauth-create": "ccreje cu XenForo",
+	"xenforoauth-desc": "Permette a le utinde de trasè cu 'nu cunde XenForo",
+	"xenforoauth-generic-error": "Mudu, ha assute 'n'errore. Tuèrne rrete e pruève arrete. Messàgge: $1",
+	"xenforoauth-external-error": "'U site de fore ave cacate l'autendicaziona toje o ave assute 'n'errore. Pe piacere pruève arrete o condtatte l'amministratore d'u site. 'U messàgge ere: $1",
+	"xenforoauth-form-merge": "Colleghe XenForo a 'u cunde uicchi tune",
+	"xenforoauth-form-unlink": "Scolleghe XenForo da 'u cunde uicchi tune",
+	"xenforoauth-link-other": "'U cunde tune de XenForo jè ggià collegate a 'n'otre utende. Pe piacere scolleghe 'a connessione o condatte 'n'amministratore, ce no tìne otre cunde uicchi.",
+	"xenforoauth-link-same": "'U cunde tune de XenForo jè ggià collegate a 'n'otre utende, e quinde no se pò collegà arrete.",
+	"xenforoauth-error-no-authentication-workflow": "E' cercate de condinuà sus a 'nu flusse de fatìe già accumenzate de XenForo, ma non ge ste nisciune ca ave già accumenzate. Pe piacere accuminze 'nu flusse de fatìe de autendicazione pruvanne a trasè arrete.",
+	"xenforoauth-loginbutton-help": "Autendicate cu 'u cunde tune de XenForo.",
+	"xenforoauth-link-help": "Colleghe 'u cunde uicchi tune cu 'u cunde XenForo tune.",
+	"xenforoauth-param-error-label": "Codece de errore turnate da XenForo",
+	"xenforoauth-param-error-help": "In case de 'n'autendicazione sciute a male, 'u codece de errore turnate da XenForo.",
+	"xenforoauth-param-code-label": "Gettone de accesse da XenForo",
+	"xenforoauth-param-code-help": "In case de 'n'autendicazione sciute bbone, 'u gettone de accesse turnate da XenForo.",
+	"xenforoauth-change-account-not-linked": "Non ge puè luà 'na connessione a 'nu cunde XenFORO, purcé 'u cunde non g'è collegate cu 'nu cunde XenForo.",
+	"xenforoauth-auth-service-unknown-account": "Cunde XenForo scanusciute",
+	"xenforoauth-access-denied": "No se pò trasè. E' negate l'accesse a le 'mbormaziune d'u cunde tune de XenForo.",
+	"xenforoauth-local-exists": "E' trasute correttamende cu 'u cunde tune de XenForo. Comungue, esiste già 'nu cunde cu 'u nome utende $1 jndr'à {{SITENAME}} e non g'è collegate a 'u cunde tune de XenForo, e accussì non ge te puè collegà corrttamende. 'Ndruche [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists 'a pàgene de aijute] pe avè cchiù 'mbormaziune sus a stu errore."
 }
