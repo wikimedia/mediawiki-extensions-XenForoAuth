@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"xenforoauth": "Logg inn med XenForo",
+	"xenforoauth-auth-service-name": "XenForo",
+	"xenforoauth-create": "Opprett med XenForo",
+	"xenforoauth-desc": "Lar brukere logge inn med en XenForo-konto",
+	"xenforoauth-generic-error": "Oops, en feil oppsto. Gå tilbake og prøv igjen. Beskjed: $1",
+	"xenforoauth-external-error": "Det eksterne nettstedet kunne ikke autentisere deg eller en feil oppsto. Prøv igjen eller kontakt administratoren til nettstedet. Beskjeden var: $1",
+	"xenforoauth-form-merge": "Knytt XenForo til en wikikonto",
+	"xenforoauth-form-unlink": "Fjern tilknytning mellom XenForo- og wikikonto",
+	"xenforoauth-link-other": "XenForo-kontoen din er allerede tilknyttet en annen bruker. Fjern tilknyttingen eller kontakt en administrator om du ikke har en annen wikikonto.",
+	"xenforoauth-link-same": "XenForo-kontoen din er allerede knyttet til brukerkontoen din, så du kan ikke knytte den til én gang til.",
+	"xenforoauth-error-no-authentication-workflow": "Du ba om å fortsette en påbegynt arbeidsflyt for XenForo-autentisering, men det er ingen som er påbegynt. Start en ny arbeidsflyt ved å prøve å logge inn igjen.",
+	"xenforoauth-loginbutton-help": "Autentiserer deg med XenForo-kontoen din.",
+	"xenforoauth-link-help": "Knytt wikikontoen din med XenForo-kontoen din.",
+	"xenforoauth-param-error-label": "Feilkode returnert fra XenForo",
+	"xenforoauth-param-error-help": "Feilkoden som returneres fra XenForo i tilfelle autentiseringsfeil.",
+	"xenforoauth-param-code-label": "Tilgangsnøkkel fra XenForo",
+	"xenforoauth-param-code-help": "Tilgangsnøkkelen som returneres fra XenForo i tilfelle vellykket autentisering.",
+	"xenforoauth-change-account-not-linked": "Du kan ikke fjerne en XenForo-tilknytning fordi kontoen din ikke er tilknyttet en XenForo-konto.",
+	"xenforoauth-auth-service-unknown-account": "Ukjent XenForo-konto",
+	"xenforoauth-access-denied": "Kunne ikke logge inn. Du avviste tilgang til din kontoinformasjon hos XenForo.",
+	"xenforoauth-local-exists": "Du har logget inn på XenForo-kontoen din. En konto med brukernavnet $1 eksisterer imidlertid allerede på {{SITENAME}} og er ikke knyttet til XenForo-kontoen din, så du kunne ikke logges inn. Se [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists hjelpesiden] for denne feilen for mer informasjon."
+}
