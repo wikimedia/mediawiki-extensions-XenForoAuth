@@ -14,7 +14,7 @@ class XenForoUser {
 
 	/**
 	 * XenForoUser constructor.
-	 * @param integer $xfUserId The XenForo User ID
+	 * @param int $xfUserId The XenForo User ID
 	 */
 	private function __construct( $xfUserId ) {
 		$this->xfUserId = $xfUserId;

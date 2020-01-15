@@ -14,7 +14,8 @@ use XenForoAuth\XenForoUser;
 class XenForoUserInfoAuthenticationRequest extends AuthenticationRequest {
 	public $required = self::OPTIONAL;
 	/** @var array An array of infos (provided from XenForo)
-	 * about an user. */
+	 * about an user.
+	 */
 	public $userInfo;
 
 	public function __construct( $userInfo ) {

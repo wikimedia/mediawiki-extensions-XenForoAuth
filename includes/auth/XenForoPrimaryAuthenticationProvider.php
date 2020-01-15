@@ -9,13 +9,12 @@ use MediaWiki\Auth\AbstractPrimaryAuthenticationProvider;
 use MediaWiki\Auth\AuthenticationRequest;
 use MediaWiki\Auth\AuthenticationResponse;
 use MediaWiki\Auth\AuthManager;
-
 use MediaWiki\MediaWikiServices;
 use StatusValue;
 use User;
 use XenForoAuth\XenForoUser;
-use XenForoBDClient\Scopes;
 use XenForoBDClient\Clients\OAuth2Client;
+use XenForoBDClient\Scopes;
 
 /**
  * Implements a primary authentication provider to authenticate an user using a XenForo forum
