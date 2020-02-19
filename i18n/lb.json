@@ -1,15 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Soued031"
 		]
 	},
 	"xenforoauth": "Mat XenForo aloggen",
 	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Mat XenForo uleeën",
 	"xenforoauth-desc": "Erlaabt et de Benotzer fir sech mat engem XenForo-Kont anzeloggen",
-	"xenforoauth-generic-error": "Ups, do war e Feeler. Gitt w.e.g. zréck a probéiert nach eng Kéier. Message: $1",
-	"xenforoauth-external-error": "Den externen Internetsite refuséiert fir Iech ze authentifizéieren oder et ass e Feeler geschitt. Probéiert et w.e.g. nach eng Kéier oder kontaktéiert en Administrateur vum Site. De Message war: $1",
+	"xenforoauth-generic-error": "Ups, do war e Feeler. Gitt wgl. zréck a probéiert nach eng Kéier. Message: $1",
+	"xenforoauth-external-error": "Den externen Internetsite refuséiert fir Iech ze authentifizéieren oder et ass e Feeler geschitt. Probéiert et wgl. nach eng Kéier oder kontaktéiert en Administrateur vum Site. De Message war: $1",
 	"xenforoauth-form-merge": "XenForo am Wiki Benotzerkont verbannen",
 	"xenforoauth-form-unlink": "XenForo-Benotzerkont vun Ärem Wiki-Benotzerkont trennen",
 	"xenforoauth-link-same": "Ären XenForo-Kont ass scho mat Ärem Benotzer verbonnen, dofir kënnt Dir en net nach eng Kéier verbannen.",
