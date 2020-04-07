@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Florian",
 			"Florian Schmidt",
 			"Metalhead64",
-			"Thomas Bohn",
-			"Florian",
-			"Tehabe"
+			"Tehabe",
+			"Thomas Bohn"
 		]
 	},
 	"xenforoauth": "Anmelden mit XenForo",

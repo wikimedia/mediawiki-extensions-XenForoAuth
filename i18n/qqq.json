@@ -2,11 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Florian Schmidt",
-			"Shirayuki",
-			"Umherirrender",
 			"George Animal",
 			"Liuxinyu970226",
-			"Metalhead64"
+			"Metalhead64",
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
 	"xenforoauth": "{{doc-special|XenForoAuth}}\nAlso used as label for the button shown in [[Special:Login]].",
