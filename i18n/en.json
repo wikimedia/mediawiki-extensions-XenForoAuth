@@ -24,5 +24,5 @@
 	"xenforoauth-change-account-not-linked": "You can not remove a XenForo account connection, because your account isn't connected with a XenForo account.",
 	"xenforoauth-auth-service-unknown-account": "Unknown XenForo account",
 	"xenforoauth-access-denied": "Unable to log in. You denied the access to your XenForo account information.",
-	"xenforoauth-local-exists": "You successfully logged into your XenForo account. However, an account with the user name $1 already exists in {{SITENAME}} and is not connected with your XenForo account, so you couldn't be logged in. See [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists the help page] for this error to get more information."
+	"xenforoauth-local-exists": "You successfully logged into your XenForo account. However, an account with the user name $1 already exists in {{SITENAME}} and is not connected with your XenForo account, so you couldn't be logged in. See [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists the help page] for this error to get more information."
 }
