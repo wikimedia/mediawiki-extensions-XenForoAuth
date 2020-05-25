@@ -26,5 +26,5 @@
 	"xenforoauth-change-account-not-linked": "Não pode remover uma ligação de conta XenForo, porque a sua conta não está ligada a nenhuma conta XenForo.",
 	"xenforoauth-auth-service-unknown-account": "Conta XenForo desconhecida",
 	"xenforoauth-access-denied": "Não foi possível iniciar sessão. Você negou o acesso à informação da sua conta XenForo.",
-	"xenforoauth-local-exists": "Iniciou sessão na sua conta XenForo. Contudo, já existe uma conta com o nome de utilizador $1 na wiki {{SITENAME}} e não está ligada à sua conta XenForo, por isso não foi possível iniciar sessão na wiki. Consulte [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists a página de ajuda] sobre este erro para mais informação."
+	"xenforoauth-local-exists": "Iniciou sessão na sua conta XenForo. Contudo, já existe uma conta com o nome de utilizador $1 na wiki {{SITENAME}} e não está ligada à sua conta XenForo, por isso não foi possível iniciar sessão na wiki. Consulte [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists a página de ajuda] sobre este erro para mais informação."
 }

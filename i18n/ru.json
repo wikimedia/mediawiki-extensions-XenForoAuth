@@ -24,5 +24,5 @@
 	"xenforoauth-change-account-not-linked": "Вы не можете удалить связь с учётной записью XenForo, поскольку ваша учётная запись не связана с XenForo.",
 	"xenforoauth-auth-service-unknown-account": "Неизвестный аккаунт XenForo",
 	"xenforoauth-access-denied": "Невозможно авторизоваться. Вы запретили доступ к информации о вашей учётной записи XenForo.",
-	"xenforoauth-local-exists": "Вы успешно авторизовались в свою учётную запись XenForo. Однако, учётная запись с именем $1 уже существует на {{SITENAME}} и не связана с вашей учётной записью XenForo, поэтому вы не можете быть авторизованы. См. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists справочную страницу] об этой ошибке для получения более подробной информации."
+	"xenforoauth-local-exists": "Вы успешно авторизовались в свою учётную запись XenForo. Однако, учётная запись с именем $1 уже существует на {{SITENAME}} и не связана с вашей учётной записью XenForo, поэтому вы не можете быть авторизованы. См. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists справочную страницу] об этой ошибке для получения более подробной информации."
 }

@@ -24,5 +24,5 @@
 	"xenforoauth-change-account-not-linked": "您不能移除XenForo账户连接，因为您的账户未与XenForo账户连接。",
 	"xenforoauth-auth-service-unknown-account": "未知的XenForo账户",
 	"xenforoauth-access-denied": "无法登陆。您拒绝了对您XenForo账户信息的访问请求。",
-	"xenforoauth-local-exists": "您已成功登陆至您的XenForo账户。然而，用户名为$1的账户已存在于{{SITENAME}}，并未与您的XenForo连接，因此您不能登录。参见有关此错误的[https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists 帮助页面]以获取更多信息。"
+	"xenforoauth-local-exists": "您已成功登陆至您的XenForo账户。然而，用户名为$1的账户已存在于{{SITENAME}}，并未与您的XenForo连接，因此您不能登录。参见有关此错误的[https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists 帮助页面]以获取更多信息。"
 }

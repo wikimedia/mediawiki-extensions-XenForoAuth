@@ -24,5 +24,5 @@
 	"xenforoauth-change-account-not-linked": "Du kan ikke fjerne en XenForo-tilknytning fordi kontoen din ikke er tilknyttet en XenForo-konto.",
 	"xenforoauth-auth-service-unknown-account": "Ukjent XenForo-konto",
 	"xenforoauth-access-denied": "Kunne ikke logge inn. Du avviste tilgang til din kontoinformasjon hos XenForo.",
-	"xenforoauth-local-exists": "Du har logget inn på XenForo-kontoen din. En konto med brukernavnet $1 eksisterer imidlertid allerede på {{SITENAME}} og er ikke knyttet til XenForo-kontoen din, så du kunne ikke logges inn. Se [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists hjelpesiden] for denne feilen for mer informasjon."
+	"xenforoauth-local-exists": "Du har logget inn på XenForo-kontoen din. En konto med brukernavnet $1 eksisterer imidlertid allerede på {{SITENAME}} og er ikke knyttet til XenForo-kontoen din, så du kunne ikke logges inn. Se [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists hjelpesiden] for denne feilen for mer informasjon."
 }

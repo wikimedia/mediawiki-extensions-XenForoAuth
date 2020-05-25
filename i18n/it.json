@@ -18,5 +18,5 @@
 	"xenforoauth-param-error-label": "Codice di errore restituito da XenForo",
 	"xenforoauth-auth-service-unknown-account": "Account XenForo sconosciuto",
 	"xenforoauth-access-denied": "Impossibile accedere. Hai negato l'accesso alle informazioni del tuo account XenForo.",
-	"xenforoauth-local-exists": "Sei entrato correttamente col tuo account XenForo. Tuttavia, esiste già un account con il nome utente $1 in {{SITENAME}} e non è collegato al tuo account XenForo, quindi non puoi collegarti correttamente. Vedi [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists la pagina di aiuto] per ottenere ulteriori informazioni su questo errore."
+	"xenforoauth-local-exists": "Sei entrato correttamente col tuo account XenForo. Tuttavia, esiste già un account con il nome utente $1 in {{SITENAME}} e non è collegato al tuo account XenForo, quindi non puoi collegarti correttamente. Vedi [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists la pagina di aiuto] per ottenere ulteriori informazioni su questo errore."
 }

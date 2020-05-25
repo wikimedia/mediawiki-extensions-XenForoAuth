@@ -25,5 +25,5 @@
 	"xenforoauth-change-account-not-linked": "No puedes quitar la conexión de cuenta de XenForo porque tu cuenta no está conectada con ninguna cuenta de XenForo.",
 	"xenforoauth-auth-service-unknown-account": "Cuenta de XenForo desconocida",
 	"xenforoauth-access-denied": "No se puede acceder. Has denegado la lectura de la información de tu cuenta de XenForo.",
-	"xenforoauth-local-exists": "Has accedido correctamente a tu cuenta de XenForo. Sin embargo, ya existe una cuenta en {{SITENAME}} con el nombre de usuario «$1» que no está conectada con la cuenta de XenForo, por lo que no has podido acceder al wiki. Busca en [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists la página de ayuda] este error para obtener más información."
+	"xenforoauth-local-exists": "Has accedido correctamente a tu cuenta de XenForo. Sin embargo, ya existe una cuenta en {{SITENAME}} con el nombre de usuario «$1» que no está conectada con la cuenta de XenForo, por lo que no has podido acceder al wiki. Busca en [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists la página de ayuda] este error para obtener más información."
 }

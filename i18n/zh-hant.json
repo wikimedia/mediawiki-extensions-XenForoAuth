@@ -25,5 +25,5 @@
 	"xenforoauth-change-account-not-linked": "您無法對 XenForo 帳號連接做出移除，因為您的帳號並沒有與 XenForo 帳號連接。",
 	"xenforoauth-auth-service-unknown-account": "不明的 XenForo 帳號",
 	"xenforoauth-access-denied": "無法登入。您拒絕了對您的 XenForo 帳號訊息做出存取。",
-	"xenforoauth-local-exists": "您已成功登入您的 XenForo 帳號。然而有一個名為 $1 的帳號已存在於 {{SITENAME}}，而且並沒有與您的 XenForo 帳號連結，因此您無法登入。請查看[https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists 說明頁面]來取得有關錯誤的更多資訊。"
+	"xenforoauth-local-exists": "您已成功登入您的 XenForo 帳號。然而有一個名為 $1 的帳號已存在於 {{SITENAME}}，而且並沒有與您的 XenForo 帳號連結，因此您無法登入。請查看[https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists 說明頁面]來取得有關錯誤的更多資訊。"
 }

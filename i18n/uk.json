@@ -24,5 +24,5 @@
 	"xenforoauth-change-account-not-linked": "Ви не можете вилучити прив'язку до облікового запису XenForo, оскільки Ваш облівоий запис не пов'язаний з обліковим записом XenForo.",
 	"xenforoauth-auth-service-unknown-account": "Невідомий обліковий запис XenForo",
 	"xenforoauth-access-denied": "Не вдалося увійти. Ви заборонили доступ до інформації про свій обліковий запис XenForo.",
-	"xenforoauth-local-exists": "Ви успішно ввійшли у свій обліковий запис XenForo. Однак обліковий запис з іменем користувача $1 вже існує на сайті {{SITENAME}}, і не пов'язаний з Вашим обліковим записом {{SITENAME}}, тож Ви не могли увійти в систему. Див. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists сторінку довідки], щоб отримати більше інформації про цю помилку."
+	"xenforoauth-local-exists": "Ви успішно ввійшли у свій обліковий запис XenForo. Однак обліковий запис з іменем користувача $1 вже існує на сайті {{SITENAME}}, і не пов'язаний з Вашим обліковим записом {{SITENAME}}, тож Ви не могли увійти в систему. Див. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists сторінку довідки], щоб отримати більше інформації про цю помилку."
 }

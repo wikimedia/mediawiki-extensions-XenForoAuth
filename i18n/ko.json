@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Codenstory",
 			"Ykhwong"
 		]
 	},
@@ -9,5 +10,6 @@
 	"xenforoauth-generic-error": "죄송합니다, 오류가 있었습니다. 뒤로 돌아가서 다시 시도해 주세요. 메시지: $1",
 	"xenforoauth-external-error": "외부 사이트가 인증을 거부했거나 오류가 발생했습니다. 다시 시도하거나 사이트의 관리자에게 문의하십시오. 메시지는 다음과 같습니다: $1",
 	"xenforoauth-param-error-label": "XenForo에서 오류 코드가 반환되었습니다",
-	"xenforoauth-auth-service-unknown-account": "알 수 없는 XenForo 계정"
+	"xenforoauth-auth-service-unknown-account": "알 수 없는 XenForo 계정",
+	"xenforoauth-local-exists": "XenForo 계정에 성공적으로 로그인했습니다. 하지만, {{SITENAME}}에 $1 이름을 가진 사용자가 존재하고 XenForo 계정에 연결되어 있지 않아 로그인할 수 없습니다. 이 오류에 대해 더 많은 정보를 얻으려면 [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists 도움말 페이지]를 방문하세요."
 }

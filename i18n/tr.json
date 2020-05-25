@@ -24,5 +24,5 @@
 	"xenforoauth-change-account-not-linked": "Hesabınız bir XenForo hesabıyla bağlantılı olmadığından, bir XenForo hesabı bağlantısını kaldıramazsınız.",
 	"xenforoauth-auth-service-unknown-account": "Bilinmeyen XenForo hesabı",
 	"xenforoauth-access-denied": "Oturum açılamıyor. XenForo hesap bilgilerinize erişimi reddettiniz.",
-	"xenforoauth-local-exists": "XenForo hesabınıza başarıyla giriş yaptınız. Ancak, $1 kullanıcı adına sahip bir hesap zaten {{SITENAME}} hesabında mevcut ve XenForo hesabınızla bağlantılı değil, bu yüzden giriş yapamazsınız. Bu hatanın daha fazla bilgi alması için [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists yardım sayfasına] bakınız."
+	"xenforoauth-local-exists": "XenForo hesabınıza başarıyla giriş yaptınız. Ancak, $1 kullanıcı adına sahip bir hesap zaten {{SITENAME}} hesabında mevcut ve XenForo hesabınızla bağlantılı değil, bu yüzden giriş yapamazsınız. Bu hatanın daha fazla bilgi alması için [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists yardım sayfasına] bakınız."
 }

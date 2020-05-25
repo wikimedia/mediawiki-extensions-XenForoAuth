@@ -24,5 +24,5 @@
 	"xenforoauth-change-account-not-linked": "Vous ne pouvez pas supprimer une connexion de compte XenForo, parce que votre compte n’est pas relié à un compte XenForo.",
 	"xenforoauth-auth-service-unknown-account": "Compte XenForo inconnu",
 	"xenforoauth-access-denied": "Impossible de se connecter. Vous avez refusé l’accès aux informations de votre compte XenForo.",
-	"xenforoauth-local-exists": "Vous vous êtes bien connecté à votre compte XenForo. cependant, un compte avec le nom d’utilisateur $1 existe déjà sur {{SITENAME}} et n’est pas connecté avec votre compte XenForo, ce qui vous empêche de vous connecter. Voyez [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/LocalExists la page d’aide] sur cette erreur, pour avoir plus d’informations."
+	"xenforoauth-local-exists": "Vous vous êtes bien connecté à votre compte XenForo. cependant, un compte avec le nom d’utilisateur $1 existe déjà sur {{SITENAME}} et n’est pas connecté avec votre compte XenForo, ce qui vous empêche de vous connecter. Voyez [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists la page d’aide] sur cette erreur, pour avoir plus d’informations."
 }
