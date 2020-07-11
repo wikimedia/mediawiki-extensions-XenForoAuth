@@ -116,14 +116,12 @@ class XenForoPrimaryAuthenticationProvider extends AbstractPrimaryAuthentication
 					wfMessage( 'xenforoauth' ),
 					wfMessage( 'xenforoauth-loginbutton-help' )
 				) ];
-				break;
 			case AuthManager::ACTION_LINK:
 				// TODO: Probably not the best message currently.
 				return [ new XenForoAuthenticationRequest(
 					wfMessage( 'xenforoauth-form-merge' ),
 					wfMessage( 'xenforoauth-link-help' )
 				) ];
-				break;
 			case AuthManager::ACTION_REMOVE:
 				$user = User::newFromName( $options['username'] );
 				if ( !$user || !XenForoUser::hasConnectedXFUserAccount( $user ) ) {
@@ -131,7 +129,6 @@ class XenForoPrimaryAuthenticationProvider extends AbstractPrimaryAuthentication
 				}
 				$xfUserId = XenForoUser::getXFUserIdFromUser( $user );
 				return [ new XenForoRemoveAuthenticationRequest( $xfUserId ) ];
-				break;
 			case AuthManager::ACTION_CREATE:
 				// TODO: ACTION_CREATE doesn't really need all
 				// the things provided by inheriting
@@ -141,7 +138,6 @@ class XenForoPrimaryAuthenticationProvider extends AbstractPrimaryAuthentication
 					wfMessage( 'xenforoauth-create' ),
 					wfMessage( 'xenforoauth-link-help' )
 				) ];
-				break;
 			default:
 				return [];
 		}
@@ -292,7 +288,7 @@ class XenForoPrimaryAuthenticationProvider extends AbstractPrimaryAuthentication
 	 * request can be handled by XenForoAuth and, if so, returns an AuthenticationResponse that
 	 * redirects to the external authentication site, otherwise returns an abstain response.
 	 * @param array $reqs
-	 * @param $buttonAuthenticationRequestName
+	 * @param string $buttonAuthenticationRequestName
 	 * @return AuthenticationResponse
 	 */
 	private function beginXenForoAuthentication( array $reqs, $buttonAuthenticationRequestName ) {
@@ -330,7 +326,7 @@ class XenForoPrimaryAuthenticationProvider extends AbstractPrimaryAuthentication
 	/**
 	 * Returns an authenticated \XenForoBDClient\Users\User object.
 	 *
-	 * @param $request
+	 * @param XenForoServerAuthenticationRequest $request
 	 * @return \XenForoBDClient\Users\User|AuthenticationResponse
 	 */
 	private function getAuthenticatedXFUserFromRequest(
@@ -341,7 +337,6 @@ class XenForoPrimaryAuthenticationProvider extends AbstractPrimaryAuthentication
 				case 'access_denied':
 					return AuthenticationResponse::newFail( wfMessage( 'xenforoauth-access-denied'
 						) );
-					break;
 				default:
 					return AuthenticationResponse::newFail( wfMessage(
 						'xenforoauth-generic-error', $request->errorCode ? $request->errorCode :
