@@ -31,7 +31,7 @@ class XenForoRemoveAuthenticationRequest extends AuthenticationRequest {
 	 * Returns the Google ID, that should be removed from the valid
 	 * credentials of the user.
 	 *
-	 * @return String
+	 * @return string
 	 */
 	public function getXenForoUserId() {
 		return $this->xenForoUserId;

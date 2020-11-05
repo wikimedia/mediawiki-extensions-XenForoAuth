@@ -231,7 +231,7 @@ class XenForoUser {
 	 * Insert's or update's the Google ID connected with this user account.
 	 *
 	 * @param User $user The user to connect the Google ID with
-	 * @param String $xfUserId The new XenForo ID
+	 * @param string $xfUserId The new XenForo ID
 	 * @return bool Whether the insert/update statement was successful
 	 */
 	public static function connectWithXenForoUser( User $user, $xfUserId ) {
