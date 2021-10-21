@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Fitoschido",
+			"Jakeukalane",
 			"Javiersanp"
 		]
 	},
@@ -13,7 +14,7 @@
 	"xenforoauth-external-error": "El sitio externo rechazó la autenticación o se ha producido un error. Inténtalo de nuevo o ponte en contacto con el administrador del sitio. El mensaje emitido fue: $1",
 	"xenforoauth-form-merge": "Enlazar XenForo con la cuenta del wiki",
 	"xenforoauth-form-unlink": "Desenlazar XenForo de la cuenta del wiki",
-	"xenforoauth-link-other": "Tu cuenta de XenForo ya está enlazada con otro usuario. Desenlázala o ponte en contacto con un administrador si no tienes otra cuenta en el wiki.",
+	"xenforoauth-link-other": "Tu cuenta de XenForo ya está enlazada con otro usuario. Desenlázala o ponte en contacto con un administrador si no tienes otra cuenta en la wiki.",
 	"xenforoauth-link-same": "Tu cuenta de XenForo ya está enlazada con tu usuario; no puedes enlazarla de nuevo.",
 	"xenforoauth-error-no-authentication-workflow": "Has solicitado continuar con un flujo de autenticación de XenForo existente, pero no hay ninguno que ya se haya empezado. Inicia un flujo de autenticación nuevo intentando acceder de nuevo.",
 	"xenforoauth-loginbutton-help": "Te autentica a través de tu cuenta de XenForo.",
