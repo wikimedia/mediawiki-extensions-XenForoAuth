@@ -18,7 +18,7 @@
 	"xenforoauth-link-same": "Tu cuenta de XenForo ya está enlazada con tu usuario; no puedes enlazarla de nuevo.",
 	"xenforoauth-error-no-authentication-workflow": "Has solicitado continuar con un flujo de autenticación de XenForo existente, pero no hay ninguno que ya se haya empezado. Inicia un flujo de autenticación nuevo intentando acceder de nuevo.",
 	"xenforoauth-loginbutton-help": "Te autentica a través de tu cuenta de XenForo.",
-	"xenforoauth-link-help": "Enlaza tu cuenta del wiki con la de XenForo.",
+	"xenforoauth-link-help": "Enlaza tu cuenta de la wiki con la de XenForo.",
 	"xenforoauth-param-error-label": "XenForo devolvió un código de error",
 	"xenforoauth-param-error-help": "En caso de un fallo de autenticación, el código de error proveniente de XenForo.",
 	"xenforoauth-param-code-label": "Ficha de acceso de XenForo",
