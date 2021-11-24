@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"Romaine"
 		]
 	},
 	"xenforoauth": "Aanmelden met XenForo",
+	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-desc": "Voegt de mogelijkheid toe om aan te melden met een XenForo account"
 }
