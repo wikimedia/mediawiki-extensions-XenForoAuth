@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Sabelöga"
 		]
 	},
 	"xenforoauth": "Logga in med XenForo",
 	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Skapa med XenForo",
+	"xenforoauth-desc": "Låter användare logga in med ett XenForo-konto",
 	"xenforoauth-generic-error": "Oj, ett fel uppstod. Gå tillbaka och försök igen. Meddelande: $1",
 	"xenforoauth-auth-service-unknown-account": "Okänt XenForo-konto"
 }
