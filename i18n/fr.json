@@ -1,28 +1,29 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
 	"xenforoauth": "Se connecter avec XenForo",
 	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Créer avec XenForo",
 	"xenforoauth-desc": "Autoriser les utilisateurs à se connecter avec un compte XenForo",
-	"xenforoauth-generic-error": "Oups, une erreur s’est produite. Veuillez revenir en arrière et réessayer. Message : $1",
-	"xenforoauth-external-error": "Le site externe a refusé de vous authentifier ou a rencontré une erreur. Veuillez réessayer ou contacter l’administrateur du site. Le message était : $1",
+	"xenforoauth-generic-error": "Oups, une erreur s’est produite. Veuillez revenir en arrière et essayer à nouveau. Message : $1",
+	"xenforoauth-external-error": "Le site externe a refusé de vous authentifier ou a rencontré une erreur. Veuillez essayer à nouveau ou contacter l’administrateur du site. Le message était : $1",
 	"xenforoauth-form-merge": "Lier XenForo au compte wiki",
-	"xenforoauth-form-unlink": "Supprimer le lien de XenForo du compte wiki",
-	"xenforoauth-link-other": "Votre compte XenForo est déjà lié à un autre utilisateur. Veuillez supprimer cette connexion ou contacter un administrateur, si vous n’avez pas d’autre compte wiki.",
-	"xenforoauth-link-same": "Votre compte XenForo est déjà lié à votre utilisateur, inutile de le faire de nouveau.",
-	"xenforoauth-error-no-authentication-workflow": "Vous avez demandé à continuer un processus d’authentification XenForo déjà démarré, mais il n’y en a aucun dans ce cas. Veuillez démarrer un nouveau processus d’authentification en essayant de vous connecter de nouveau.",
+	"xenforoauth-form-unlink": "Supprimer la liaison à XenForo du compte wiki",
+	"xenforoauth-link-other": "Votre compte XenForo est déjà couplé à un autre utilisateur de ce wiki. Veuillez délier cette connexion, ou bien contacter un administrateur si vous n’avez pas d’autre compte wiki.",
+	"xenforoauth-link-same": "Votre compte XenForo est déjà couplé à votre utilisateur sur ce wiki, inutile de le faire de nouveau.",
+	"xenforoauth-error-no-authentication-workflow": "Vous avez demandé à continuer un processus d’authentification XenForo déjà démarré, mais il n’y en a aucun dans ce cas. Veuillez démarrer un nouveau processus d’authentification en essayant de vous connecter à nouveau.",
 	"xenforoauth-loginbutton-help": "Vous authentifie avec votre compte XenForo.",
-	"xenforoauth-link-help": "Lier votre compte wiki avec votre compte XenForo.",
+	"xenforoauth-link-help": "Lie votre compte wiki avec votre compte XenForo.",
 	"xenforoauth-param-error-label": "Code d’erreur renvoyé par XenForo",
-	"xenforoauth-param-error-help": "Dans le cas d’un échec d’authentification, le code d’erreur renvoyé par XenForo.",
+	"xenforoauth-param-error-help": "En cas d’échec de l’authentification, le code d’erreur renvoyé par XenForo.",
 	"xenforoauth-param-code-label": "Jeton d’accès de XenForo",
-	"xenforoauth-param-code-help": "An cas d’authentification réussie, le jeton d’accès renvoyé par XenForo.",
-	"xenforoauth-change-account-not-linked": "Vous ne pouvez pas supprimer une connexion de compte XenForo, parce que votre compte n’est pas relié à un compte XenForo.",
+	"xenforoauth-param-code-help": "En cas d’authentification réussie, le jeton d’accès renvoyé par XenForo.",
+	"xenforoauth-change-account-not-linked": "Vous ne pouvez pas supprimer une connexion de compte XenForo, parce que votre compte sur ce wiki n’est couplé à aucun compte XenForo.",
 	"xenforoauth-auth-service-unknown-account": "Compte XenForo inconnu",
-	"xenforoauth-access-denied": "Impossible de se connecter. Vous avez refusé l’accès aux informations de votre compte XenForo.",
-	"xenforoauth-local-exists": "Vous vous êtes bien connecté à votre compte XenForo. cependant, un compte avec le nom d’utilisateur $1 existe déjà sur {{SITENAME}} et n’est pas connecté avec votre compte XenForo, ce qui vous empêche de vous connecter. Voyez [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists la page d’aide] sur cette erreur, pour avoir plus d’informations."
+	"xenforoauth-access-denied": "Impossible de se connecter. Vous avez refusé l’accès aux informations sur votre compte XenForo.",
+	"xenforoauth-local-exists": "Vous vous êtes bien connecté à votre compte XenForo. Cependant, un compte avec le nom d’utilisateur $1 existe déjà sur {{SITENAME}} et n’est pas couplé avec votre compte XenForo, ce qui vous empêche de vous connecter. Voyez [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists la page d’aide] sur cette erreur pour avoir plus d’informations."
 }
