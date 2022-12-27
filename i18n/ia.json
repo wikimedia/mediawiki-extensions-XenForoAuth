@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"xenforoauth": "Aperir session con XenForo",
+	"xenforoauth-auth-service-name": "XenForo",
+	"xenforoauth-create": "Crear con XenForo",
+	"xenforoauth-desc": "Permitter que usatores aperi session con un conto XenForo",
+	"xenforoauth-generic-error": "Ups, un error ha occurrite. Per favor retorna e tenta lo de novo. Message: $1",
+	"xenforoauth-external-error": "Le sito externe refusava de authenticar te o incontrava un error. Per favor essaya lo de novo o contacta le administrator del sito. Le message esseva: $1",
+	"xenforoauth-form-merge": "Ligar XenForo a conto wiki",
+	"xenforoauth-form-unlink": "Disligar XenForo de conto wiki",
+	"xenforoauth-link-other": "Tu conto de XenForo es jam ligate a un altere usator. Per favor disliga le connexion o contacta un administrator si tu non ha alcun altere conto wiki.",
+	"xenforoauth-link-same": "Tu conto de XenForo es jam ligate a tu usator. Non es possibile ligar lo de novo.",
+	"xenforoauth-error-no-authentication-workflow": "Tu ha demandate a continuar un processo de authentication XenForo, ma il non ha alcun tal processo actualmente in curso. Per favor comencia un nove processo de authentication per aperir session de novo.",
+	"xenforoauth-loginbutton-help": "Te authentica con tu conto XenForo.",
+	"xenforoauth-link-help": "Ligar tu conto wiki a tu conto XenForo.",
+	"xenforoauth-param-error-label": "Codice de error retornate ab XenForo",
+	"xenforoauth-param-error-help": "In caso de un fallimento de authentication, le codice de error retornate ab XenForo.",
+	"xenforoauth-param-code-label": "Token de accesso de XenForo",
+	"xenforoauth-param-code-help": "In caso de un authentication succedite, le token de accesso retornate ab XenForo.",
+	"xenforoauth-change-account-not-linked": "Tu non pote remover un connexion a un conto XenForo perque tu conto non es connectite a un conto XenForo.",
+	"xenforoauth-auth-service-unknown-account": "Conto XenForo incognite",
+	"xenforoauth-access-denied": "Impossibile aperir session. Tu ha refusate le accesso al information de tu conto XenForo.",
+	"xenforoauth-local-exists": "Tu ha aperite session in tu conto XenForo. Nonobstante, un conto con le nomine de usator $1 existe ja in {{SITENAME}} e non es connectite con tu conto XenForo, dunque tu non poteva esser authenticate. Vide [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists le pagina de adjuta] de iste error pro obtener plus information."
+}
