@@ -4,5 +4,25 @@
 			"Eleassar"
 		]
 	},
-	"xenforoauth-param-code-label": "Dostopovni žeton XenForo"
+	"xenforoauth": "Prijava s XenForo",
+	"xenforoauth-auth-service-name": "XenForo",
+	"xenforoauth-create": "Ustvari s XenForo",
+	"xenforoauth-desc": "Uporabnikom omogoča prijavo z računom XenForo",
+	"xenforoauth-generic-error": "Ups, prišlo je do napake. Vrnite se in poskusite znova. Sporočilo: $1",
+	"xenforoauth-external-error": "Zunanje spletno mesto je zavrnilo vašo avtentikacijo ali pa je naletelo na napako. Poskusite znova ali se obrnite na administratorja spletišča. Sporočilo je bilo: $1",
+	"xenforoauth-form-merge": "Poveži XenForo z viki računom",
+	"xenforoauth-form-unlink": "Prekini povezavo XenForo z viki računom",
+	"xenforoauth-link-other": "Vaš račun XenForo je že povezan z drugim uporabnikom. Prekinite povezavo ali se obrnite na administratorja, če nimate drugega viki računa.",
+	"xenforoauth-link-same": "Vaš račun XenForo je že povezan z vašim uporabnikom, zato ga ne morete znova povezati.",
+	"xenforoauth-error-no-authentication-workflow": "Zahtevali ste nadaljevanje že začetega delovnega toka avtentikacije s XenForom, vendar ni nobenega, ki bi se že začel. Začnite nov delovni tok avtentikacije tako, da se znova poskusite prijaviti.",
+	"xenforoauth-loginbutton-help": "Avtenticira vas z vašim računom XenForo.",
+	"xenforoauth-link-help": "Povežite svoj viki račun z računom XenForo.",
+	"xenforoauth-param-error-label": "XenForo je vrnil kodo napake",
+	"xenforoauth-param-error-help": "Koda, ki jo XenForo vrne v primeru neuspešne avtentikacije.",
+	"xenforoauth-param-code-label": "Dostopovni žeton XenForo",
+	"xenforoauth-param-code-help": "Dostopovni žeton, ki ga XenForo vrne v primeru uspešne avtentikacije.",
+	"xenforoauth-change-account-not-linked": "Povezave z računom XenForo ne morete odstraniti, ker vaš račun ni povezan z računom XenForo.",
+	"xenforoauth-auth-service-unknown-account": "Neznan račun XenForo",
+	"xenforoauth-access-denied": "Ni vas mogoče prijaviti. Zavrnili ste dostop do podatkov o vašem računu XenForo.",
+	"xenforoauth-local-exists": "Uspešno ste se prijavili v svoj račun XenForo. Vendar račun z uporabniškim imenom $1 v projektu {{SITENAME}} že obstaja in ni povezan z vašim računom XenForo, zato vas ni bilo mogoče prijaviti. Za več informacij glejte [https://www.mediawiki.org/wiki/Special :MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists stran pomoči] za to napako."
 }
