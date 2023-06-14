@@ -14,7 +14,7 @@
 	"xenforoauth-form-unlink": "Prekini povezavo XenForo z viki računom",
 	"xenforoauth-link-other": "Vaš račun XenForo je že povezan z drugim uporabnikom. Prekinite povezavo ali se obrnite na administratorja, če nimate drugega viki računa.",
 	"xenforoauth-link-same": "Vaš račun XenForo je že povezan z vašim uporabnikom, zato ga ne morete znova povezati.",
-	"xenforoauth-error-no-authentication-workflow": "Zahtevali ste nadaljevanje že začetega delovnega toka avtentikacije s XenForom, vendar ni nobenega, ki bi se že začel. Začnite nov delovni tok avtentikacije tako, da se znova poskusite prijaviti.",
+	"xenforoauth-error-no-authentication-workflow": "Zahtevali ste nadaljevanje že začetega delovnega toka avtentikacije s XenForom, vendar ni nobenega, ki bi se že začel. Začnite nov delovni tok avtentikacije tako, da se poskusite znova prijaviti.",
 	"xenforoauth-loginbutton-help": "Avtenticira vas z vašim računom XenForo.",
 	"xenforoauth-link-help": "Povežite svoj viki račun z računom XenForo.",
 	"xenforoauth-param-error-label": "XenForo je vrnil kodo napake",
