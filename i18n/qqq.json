@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Florian Schmidt",
 			"George Animal",
 			"Liuxinyu970226",
@@ -11,7 +12,7 @@
 		]
 	},
 	"xenforoauth": "{{doc-special|XenForoAuth}}\nAlso used as label for the button shown in [[Special:Login]].",
-	"xenforoauth-auth-service-name": "The name of the service used to authenticate an user.",
+	"xenforoauth-auth-service-name": "{{Optional}}\n\nThe name of the service used to authenticate a user.",
 	"xenforoauth-create": "Used as label for the button shown in [[Special:CreateAccount]].",
 	"xenforoauth-desc": "{{desc|name=XenForoAuth|url=https://www.mediawiki.org/wiki/Extension:XenForoAuth}}",
 	"xenforoauth-generic-error": "Generic error message for errors with no specific error message.\n\nParameters:\n* $1 - a short description of the error (e.g. Database error)",
