@@ -5,7 +5,6 @@
 		]
 	},
 	"xenforoauth": "Logg inn med XenForo",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Opprett med XenForo",
 	"xenforoauth-desc": "Lar brukere logge inn med en XenForo-konto",
 	"xenforoauth-generic-error": "Oops, en feil oppsto. Gå tilbake og prøv igjen. Beskjed: $1",

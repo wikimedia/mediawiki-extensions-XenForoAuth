@@ -7,7 +7,6 @@
 		]
 	},
 	"xenforoauth": "使用XenForo登录",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "使用XenForo创建",
 	"xenforoauth-desc": "允许用户通过XenForo账号登录",
 	"xenforoauth-generic-error": "天哪，发生了一个错误。请返回并重试。消息：$1",

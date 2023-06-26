@@ -6,7 +6,6 @@
 		]
 	},
 	"xenforoauth": "Se connecter avec XenForo",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Créer avec XenForo",
 	"xenforoauth-desc": "Autoriser les utilisateurs à se connecter avec leur compte XenForo",
 	"xenforoauth-generic-error": "Oups, une erreur s’est produite. Veuillez revenir en arrière et essayer à nouveau. Message : $1",

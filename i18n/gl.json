@@ -5,7 +5,6 @@
 		]
 	},
 	"xenforoauth": "Iniciar sesión con XenForo",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Crear con XenForo",
 	"xenforoauth-desc": "Permite ós usuarios conectarse cunha conta de XenForo",
 	"xenforoauth-generic-error": "Houbo un erro inesperado. Por favor, volte atrás e probe de novo. Mensaxe: $1",

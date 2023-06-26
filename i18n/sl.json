@@ -5,7 +5,6 @@
 		]
 	},
 	"xenforoauth": "Prijava s XenForo",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Ustvari s XenForo",
 	"xenforoauth-desc": "Uporabnikom omogoča prijavo z računom XenForo",
 	"xenforoauth-generic-error": "Ups, prišlo je do napake. Vrnite se in poskusite znova. Sporočilo: $1",

@@ -5,7 +5,6 @@
 		]
 	},
 	"xenforoauth": "Aniciar sesión con XenForo",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Crear con XenForo",
 	"xenforoauth-desc": "Permite a los usuarios aniciar sesión con una cuenta de XenForo",
 	"xenforoauth-generic-error": "Ai, hebo un error. Torna a la páxina anterior ya inténtalo de nueves. Mensaxe: $1",

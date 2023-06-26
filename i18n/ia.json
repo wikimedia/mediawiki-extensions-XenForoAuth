@@ -5,7 +5,6 @@
 		]
 	},
 	"xenforoauth": "Aperir session con XenForo",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Crear con XenForo",
 	"xenforoauth-desc": "Permitter que usatores aperi session con un conto XenForo",
 	"xenforoauth-generic-error": "Ups, un error ha occurrite. Per favor retorna e tenta lo de novo. Message: $1",

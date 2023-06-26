@@ -6,7 +6,6 @@
 		]
 	},
 	"xenforoauth": "Prisijungti su XenForo",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Kurti su XenForo",
 	"xenforoauth-desc": "Leisti vartotojams prisijungti su XenForo paskyra",
 	"xenforoauth-generic-error": "Oi, įvyko klaida. Prašome grįžti ir bandyti dar kartą. Pranešimas: $1",

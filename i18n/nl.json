@@ -6,6 +6,5 @@
 		]
 	},
 	"xenforoauth": "Aanmelden met XenForo",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-desc": "Voegt de mogelijkheid toe om aan te melden met een XenForo account"
 }

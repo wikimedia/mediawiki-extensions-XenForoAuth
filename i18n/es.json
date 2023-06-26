@@ -7,7 +7,6 @@
 		]
 	},
 	"xenforoauth": "Acceder con XenForo",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Crear con XenForo",
 	"xenforoauth-desc": "Permitir a los usuarios acceder mediante una cuenta de XenForo",
 	"xenforoauth-generic-error": "Se produjo un error. Regresa a la página anterior e inténtalo de nuevo. Mensaje: $1",

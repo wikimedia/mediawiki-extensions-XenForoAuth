@@ -4,7 +4,6 @@
 			"Chrumps"
 		]
 	},
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-generic-error": "Ups, wystąpił błąd. Proszę wrócić i spróbować jeszcze raz. Komunikat: $1",
 	"xenforoauth-param-error-label": "Kod błędu zwrócony z XenForo",
 	"xenforoauth-auth-service-unknown-account": "Nieznane konto XenForo"
