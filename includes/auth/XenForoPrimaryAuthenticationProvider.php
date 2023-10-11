@@ -24,7 +24,7 @@ use XenForoBDClient\Scopes;
  * authenticates the user.
  */
 class XenForoPrimaryAuthenticationProvider extends AbstractPrimaryAuthenticationProvider {
-	/** Name of the button of the GoogleAuthenticationRequest */
+	/** Name of the button of the XenForoAuthenticationRequest */
 	const XENFORO_BUTTONREQUEST_NAME = 'xenforoauth';
 
 	/**

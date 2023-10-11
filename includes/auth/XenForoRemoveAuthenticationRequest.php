@@ -10,7 +10,7 @@ use XenForoAuth\XenForoUser;
 
 /**
  * Implementation of an AuthenticationReuqest that is used to remove a
- * connection between a Google account and a local wiki account.
+ * connection between a XenForo account and a local wiki account.
  */
 class XenForoRemoveAuthenticationRequest extends AuthenticationRequest {
 	private $xenForoUserId = null;
@@ -28,7 +28,7 @@ class XenForoRemoveAuthenticationRequest extends AuthenticationRequest {
 	}
 
 	/**
-	 * Returns the Google ID, that should be removed from the valid
+	 * Returns the XenForo ID, that should be removed from the valid
 	 * credentials of the user.
 	 *
 	 * @return string

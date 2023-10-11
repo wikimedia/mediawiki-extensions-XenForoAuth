@@ -8,8 +8,8 @@ namespace XenForoAuth\Auth;
 use MediaWiki\Auth\AuthenticationRequest;
 
 /**
- * Implements a GoogleServerAuthenticationRequest that holds the data returned by a
- * redirect from Google into the authentication workflow.
+ * Implements a XenForoServerAuthenticationRequest that holds the data returned by a
+ * redirect from XenForo into the authentication workflow.
  */
 class XenForoServerAuthenticationRequest extends AuthenticationRequest {
 	/**
@@ -29,14 +29,14 @@ class XenForoServerAuthenticationRequest extends AuthenticationRequest {
 		return [
 			'error' => [
 				'type' => 'string',
-				'label' => wfMessage( 'googlelogin-param-error-label' ),
-				'help' => wfMessage( 'googlelogin-param-error-help' ),
+				'label' => wfMessage( 'xenforoauth-param-error-label' ),
+				'help' => wfMessage( 'xenforoauth-param-error-help' ),
 				'optional' => true,
 			],
 			'code' => [
 				'type' => 'string',
-				'label' => wfMessage( 'googlelogin-param-code-label' ),
-				'help' => wfMessage( 'googlelogin-param-code-help' ),
+				'label' => wfMessage( 'xenforoauth-param-code-label' ),
+				'help' => wfMessage( 'xenforoauth-param-code-help' ),
 				'optional' => true,
 			],
 		];
@@ -44,8 +44,9 @@ class XenForoServerAuthenticationRequest extends AuthenticationRequest {
 
 	/**
 	 * Load data from query parameters in an OAuth return URL
+	 *
 	 * @param array $data Submitted data as an associative array
-	 * @return AuthenticationRequest|null
+	 * @return bool
 	 */
 	public function loadFromSubmission( array $data ) {
 		if ( isset( $data['code'] ) ) {
@@ -57,6 +58,7 @@ class XenForoServerAuthenticationRequest extends AuthenticationRequest {
 			$this->errorCode = $data['error'];
 			return true;
 		}
+
 		return false;
 	}
 }

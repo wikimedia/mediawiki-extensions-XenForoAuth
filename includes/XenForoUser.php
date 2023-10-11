@@ -152,7 +152,7 @@ class XenForoUser {
 	}
 
 	/**
-	 * Helper function for load* functions. Loads the Google Id from a
+	 * Helper function for load* functions. Loads the XenForo Id from a
 	 * User Id set to this object.
 	 *
 	 * @param string $xfUserId The XenForo User ID to get the user to
@@ -184,7 +184,7 @@ class XenForoUser {
 	}
 
 	/**
-	 * Returns true, if this user object is connected with a google account,
+	 * Returns true, if this user object is connected with a XenForo account,
 	 * otherwise false.
 	 *
 	 * @param User $user The user to check
@@ -196,27 +196,27 @@ class XenForoUser {
 
 	/**
 	 * Terminates a connection between this wiki account and the
-	 * connected Google account.
+	 * connected XenForo account.
 	 *
 	 * @param User $user The user to connect from where to remove the connection
-	 * @param string $xfUserId The Google ID to remove
+	 * @param string $xfUserId The XenForo ID to remove
 	 * @return bool
 	 */
 	public static function terminateXFUserConnection( User $user, $xfUserId ) {
 		$connectedId = self::getXFUserIdFromUser( $user );
-		// make sure, that the user has a connected user account
+		// make sure that the user has a connected user account
 		if ( $connectedId === null ) {
 			// already terminated
 			return true;
 		}
 
 		// get DD master
-		$dbr = wfGetDB( DB_MASTER );
-		// try to delete the row with this google id
+		$dbw = wfGetDB( DB_MASTER );
+		// try to delete the row with this XenForo ID
 		if (
-			$dbr->delete(
-				"user_xenforo_user",
-				"user_xfuserid = " . $xfUserId,
+			$dbw->delete(
+				'user_xenforo_user',
+				[ 'user_xfuserid' => $xfUserId ],
 				__METHOD__
 			)
 		) {
@@ -228,21 +228,22 @@ class XenForoUser {
 	}
 
 	/**
-	 * Insert's or update's the Google ID connected with this user account.
+	 * Insert's or update's the XenForo ID connected with this user account.
 	 *
-	 * @param User $user The user to connect the Google ID with
+	 * @param User $user The user to connect the XenForo ID with
 	 * @param string $xfUserId The new XenForo ID
 	 * @return bool Whether the insert/update statement was successful
 	 */
 	public static function connectWithXenForoUser( User $user, $xfUserId ) {
-		$dbr = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_MASTER );
 
-		return $dbr->insert(
-			"user_xenforo_user",
+		return $dbw->insert(
+			'user_xenforo_user',
 			[
 				'user_id' => $user->getId(),
 				'user_xfuserid' => $xfUserId
-			]
+			],
+			__METHOD__
 		);
 	}
 }

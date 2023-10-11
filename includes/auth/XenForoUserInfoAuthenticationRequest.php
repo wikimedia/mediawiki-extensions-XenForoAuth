@@ -9,13 +9,12 @@ use MediaWiki\Auth\AuthenticationRequest;
 use XenForoAuth\XenForoUser;
 
 /**
- * An AUthenticationRequest that holds Google user information.
+ * An AUthenticationRequest that holds XenForo user information.
  */
 class XenForoUserInfoAuthenticationRequest extends AuthenticationRequest {
 	public $required = self::OPTIONAL;
-	/** @var array An array of infos (provided from XenForo)
-	 * about an user.
-	 */
+
+	/** @var array An array of infos (provided from XenForo) about a user. */
 	public $userInfo;
 
 	public function __construct( $userInfo ) {
@@ -27,11 +26,11 @@ class XenForoUserInfoAuthenticationRequest extends AuthenticationRequest {
 	}
 
 	public function describeCredentials() {
-		$googleUser = XenForoUser::newFromUserInfo( $this->userInfo );
+		$xenForoUser = XenForoUser::newFromUserInfo( $this->userInfo );
 		return [
 			'provider' => wfMessage( 'xenforoauth-auth-service-name' ),
 			'account' =>
-				$googleUser ? new \RawMessage( '$1', [ $googleUser->getFullNameWithId() ] ) :
+				$xenForoUser ? new \RawMessage( '$1', [ $xenForoUser->getFullNameWithId() ] ) :
 					wfMessage( 'xenforoauth-auth-service-unknown-account' )
 		];
 	}
