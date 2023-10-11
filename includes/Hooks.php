@@ -5,7 +5,14 @@ namespace XenForoAuth;
 use MediaWiki\MediaWikiServices;
 
 class Hooks {
-	public static function onLoadExtensionSchemaUpdates( \DatabaseUpdater $updater = null ) {
+	/**
+	 * Creates the user_xenforo_user DB table when the system administrator re-runs
+	 * MediaWiki's core updater script, update.php, UNLESS we're on a shared DB setup.
+	 *
+	 * @param \DatabaseUpdater $updater
+	 * @return void
+	 */
+	public static function onLoadExtensionSchemaUpdates( \DatabaseUpdater $updater ) {
 		$config = MediaWikiServices::getInstance()->getMainConfig();
 		// Don't create tables on a shared database
 		$sharedDB = $config->get( 'SharedDB' );
@@ -13,14 +20,10 @@ class Hooks {
 			!empty( $sharedDB ) &&
 			$sharedDB !== $config->get( 'DBname' )
 		) {
-			return true;
+			return;
 		}
 
-		// Sql directory inside the extension folder
-		$sql = __DIR__ . '/sql';
-		$schema = "$sql/user_xenforo_user.sql";
-		$updater->addExtensionUpdate( [ 'addTable', 'user_xenforo_user', $schema, true ] );
-		return true;
+		$updater->addExtensionTable( 'user_xenforo_user', __DIR__ . '/sql/user_xenforo_user.sql' );
 	}
 
 	/**
