@@ -1,14 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"Jack Phoenix"
 		]
 	},
 	"xenforoauth": "Kirjaudu sisään XenForolla",
 	"xenforoauth-auth-service-name": "XenForo",
+	"xenforoauth-create": "Luo XenForolla",
+	"xenforoauth-generic-error": "Ups, tapahtui virhe. Palaa takaisin ja yritä uudelleen. Viesti: $1",
+	"xenforoauth-external-error": "Ulkoinen sivusto kieltäytyi tunnistamasta sinua tai kohtasi virheen. Yritä uudelleen tai ota yhteyttä sivuston ylläpitäjään. Viesti: $1",
 	"xenforoauth-form-merge": "Linkitä XenForo wiki-tiliin",
-	"xenforoauth-form-unlink": "Pura XenForo linkitys wiki-tiliin",
-	"xenforoauth-link-other": "XenForo-tilisi on jo liitetty toiseen käyttäjään. Pura linkitys tai tai ota yhteyttä järjestelmänvalvojaan, jos sinulla ei ole muita wiki-tilejä.",
-	"xenforoauth-link-same": "XenForo-tilisi on jo linkitetty käyttäjään, joten et voi linkittää sitä uudelleen.",
-	"xenforoauth-auth-service-unknown-account": "Tuntematon XenForo-tili"
+	"xenforoauth-form-unlink": "Pura wiki-tilin XenForo-linkitys",
+	"xenforoauth-link-other": "XenForo-tilisi on jo liitetty toiseen käyttäjään. Pura linkitys tai ota yhteyttä ylläpitäjään, jos sinulla ei ole muita wiki-tilejä.",
+	"xenforoauth-link-same": "XenForo-tilisi on jo liitetty käyttäjätiliisi, joten et voi liittää sitä uudelleen.",
+	"xenforoauth-link-help": "Liitä wiki-tunnuksesi XenForo-tunnukseesi",
+	"xenforoauth-param-error-label": "XenForon palauttama virhekoodi",
+	"xenforoauth-param-error-help": "XenForon palauttama virhekoodi mikäli tunnistautumisessa tapahtui virhe.",
+	"xenforoauth-change-account-not-linked": "Et voi poistaa XenForo-tunnusliitosta, koska tunnuksesi ei ole yhdistetty XenForo-tunnukseen.",
+	"xenforoauth-auth-service-unknown-account": "Tuntematon XenForo-tili",
+	"xenforoauth-access-denied": "Kirjautuminen ei onnistu. Kielsit pääsyn XenForo-tunnuksesi tietoihin.",
+	"xenforoauth-local-exists": "Kirjauduit sisään onnistuneesti XenForo-tunnuksellesi. Kuitenkin {{GRAMMAR:inessive|{{SITENAME}}}} on jo käyttäjätunnus nimeltä $1 eikä sitä ole yhdistetty XenForo-tunnukseesi, joten sinua ei voitu kirjata sisään. Katso [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists tämän virheen ohjesivulta] lisätietoja."
 }
