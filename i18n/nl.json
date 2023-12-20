@@ -2,9 +2,28 @@
 	"@metadata": {
 		"authors": [
 			"Mainframe98",
-			"Romaine"
+			"Romaine",
+			"McDutchie"
 		]
 	},
 	"xenforoauth": "Aanmelden met XenForo",
-	"xenforoauth-desc": "Voegt de mogelijkheid toe om aan te melden met een XenForo account"
+	"xenforoauth-create": "Aanmaken met XenForo",
+	"xenforoauth-desc": "Voegt de mogelijkheid toe om aan te melden met een XenForo account",
+	"xenforoauth-generic-error": "Er is een fout opgetreden. Probeer het opnieuw. Bericht: $1",
+	"xenforoauth-external-error": "De externe site heeft geweigerd u te authenticeren of heeft een fout aangetroffen. Probeer het opnieuw of neem contact op met de beheerder van de site. De boodschap was: $1",
+	"xenforoauth-form-merge": "XenForo aan wiki-account koppelen",
+	"xenforoauth-form-unlink": "XenForo van wiki-account ontkoppelen",
+	"xenforoauth-link-other": "Uw XenForo-account is al gekoppeld aan een andere gebruiker. Ontkoppel de verbinding of neem contact op met een beheerder als u geen ander wiki-account heeft.",
+	"xenforoauth-link-same": "Uw XenForo-account is al aan uw gebruikersaccount gekoppeld. U kunt het niet opnieuw koppelen.",
+	"xenforoauth-error-no-authentication-workflow": "U hebt gevraagd om door te gaan met een al gestarte XenForo-authenticatieprocedure, maar er is er geen die al is gestart. Start een nieuwe authenticatieprocedure door u opnieuw te proberen aan te melden.",
+	"xenforoauth-loginbutton-help": "Authenticeert u met uw XenForo-account.",
+	"xenforoauth-link-help": "Uw wiki-account aan uw XenForo-account koppelen.",
+	"xenforoauth-param-error-label": "Door XenForo geretourneerde foutcode",
+	"xenforoauth-param-error-help": "In geval van een authenticatiefout is dit de door XenForo geretourneerde foutcode.",
+	"xenforoauth-param-code-label": "Toegangstoken van XenForo",
+	"xenforoauth-param-code-help": "In het geval van een succesvolle authenticatie is dit het door XenForo geretourneerde toegangstoken.",
+	"xenforoauth-change-account-not-linked": "U kunt geen XenForo-accountkoppeling verwijderen, want uw account is niet gekoppeld aan een XenForo-account.",
+	"xenforoauth-auth-service-unknown-account": "Onbekend XenForo-account",
+	"xenforoauth-access-denied": "Aanmelden niet mogelijk. U hebt de toegang tot uw XenForo-accountgegevens geweigerd.",
+	"xenforoauth-local-exists": "Het aanmelden op uw XenForo-account is gelukt. Er bestaat echter al een account met de gebruikersnaam $1 op {{SITENAME}} en dat is niet gekoppeld aan uw XenForo-account, waardoor het niet mogelijk was u aan te melden. Zie [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists de hulppagina] over deze fout voor meer informatie."
 }
