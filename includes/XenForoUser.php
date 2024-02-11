@@ -129,7 +129,7 @@ class XenForoUser {
 	 */
 	public static function getXFUserIdFromUser( User $user, $flags = User::READ_LATEST ) {
 		$db = ( $flags & User::READ_LATEST )
-			? wfGetDB( DB_MASTER )
+			? wfGetDB( DB_PRIMARY )
 			: wfGetDB( DB_REPLICA );
 
 		$s = $db->select(
@@ -162,7 +162,7 @@ class XenForoUser {
 	 */
 	public static function getUserFromXFUserId( $xfUserId, $flags = User::READ_LATEST ) {
 		$db = ( $flags & User::READ_LATEST )
-			? wfGetDB( DB_MASTER )
+			? wfGetDB( DB_PRIMARY )
 			: wfGetDB( DB_REPLICA );
 
 		$s = $db->selectRow(
@@ -211,7 +211,7 @@ class XenForoUser {
 		}
 
 		// get DD master
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_PRIMARY );
 		// try to delete the row with this XenForo ID
 		if (
 			$dbw->delete(
@@ -235,7 +235,7 @@ class XenForoUser {
 	 * @return bool Whether the insert/update statement was successful
 	 */
 	public static function connectWithXenForoUser( User $user, $xfUserId ) {
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_PRIMARY );
 
 		return $dbw->insert(
 			'user_xenforo_user',

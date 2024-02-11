@@ -7,7 +7,7 @@
 	"license-name": "MIT",
 	"type": "auth",
 	"requires": {
-		"MediaWiki": ">= 1.28.0"
+		"MediaWiki": ">= 1.39.0"
 	},
 	"ConfigRegistry": {
 		"xenforoauth": "GlobalVarConfig::newInstance"
