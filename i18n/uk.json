@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Piramidion"
+			"Piramidion",
+			"Amire80"
 		]
 	},
 	"xenforoauth": "Увійти через XenForo",
@@ -19,7 +20,7 @@
 	"xenforoauth-param-error-label": "Код помилки, отриманий із XenForo",
 	"xenforoauth-param-error-help": "У випадку помилки автентифікації, код помилки, отриманий із XenForo.",
 	"xenforoauth-param-code-label": "Токен доступу із XenForo",
-	"xenforoauth-param-code-help": "У випадку успішної автентифікації, токен доступу, отриманий  із XenForo.",
+	"xenforoauth-param-code-help": "У випадку успішної автентифікації, токен доступу, отриманий із XenForo.",
 	"xenforoauth-change-account-not-linked": "Ви не можете вилучити прив'язку до облікового запису XenForo, оскільки Ваш облівоий запис не пов'язаний з обліковим записом XenForo.",
 	"xenforoauth-auth-service-unknown-account": "Невідомий обліковий запис XenForo",
 	"xenforoauth-access-denied": "Не вдалося увійти. Ви заборонили доступ до інформації про свій обліковий запис XenForo.",

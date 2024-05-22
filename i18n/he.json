@@ -6,7 +6,7 @@
 	},
 	"xenforoauth": "כניסה באמצעות XenForo",
 	"xenforoauth-create": "נוצר באמצעות XenForo",
-	"xenforoauth-desc": "מאפשרת  למשתמשים להיכנס לחשבון עם חשבון XenForo",
+	"xenforoauth-desc": "מאפשרת למשתמשים להיכנס לחשבון עם חשבון XenForo",
 	"xenforoauth-generic-error": "אבוי, אירעה שגיאה. נא לחזור ולנסות שוב. הודעה: $1",
 	"xenforoauth-external-error": "האתר החיצוני סירב לאמת אותך או נתקל בשגיאה. נא לנסות את זה שוב או לפנות למנהל האתר. ההודעה הייתה: $1",
 	"xenforoauth-form-merge": "קישור XenForo לחשבון ויקי",
