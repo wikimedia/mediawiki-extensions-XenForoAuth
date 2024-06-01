@@ -1,12 +1,12 @@
-@import 'mediawiki.mixins';
+@import 'mediawiki.mixins.less';
 @import 'mixins/xenForoAuthButtonIcon.less';
 
-/* Login with XenForo button for OOJs UI */
+/* Login with XenForo button for OOUI */
 #mw-input-xenforoauth {
 	&.oo-ui-buttonInputWidget,
 	button {
 		height: 40px;
-		// OOJs UI icons could be possible too, but they need some complicated styles, too,
+		// OOUI icons could be possible too, but they need some complicated styles, too,
 		// to look like required by the brand guidelines
 		.xenForoAuthButtonIcon();
 	}
