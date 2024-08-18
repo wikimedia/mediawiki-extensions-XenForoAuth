@@ -115,7 +115,7 @@ class XenForoUser {
 	 * @param int $flags
 	 * @return bool
 	 */
-	public static function isXFUserIdFree( $xfUserId, $flags = User::READ_LATEST ) {
+	public static function isXFUserIdFree( $xfUserId, $flags = IDBAccessObject::READ_LATEST ) {
 		return self::getUserFromXFUserId( $xfUserId, $flags ) === null;
 	}
 
@@ -123,12 +123,12 @@ class XenForoUser {
 	 * Loads the XenForo user Id from a User Id set to this object.
 	 *
 	 * @param User $user The user to get the XenForo user Id for
-	 * @param int $flags User::READ_* constant bitfield
+	 * @param int $flags IDBAccessObject::READ_* constant bitfield
 	 * @return null|int Null, if no XenForo user ID connected with this User ID, the id
 	 * otherwise
 	 */
-	public static function getXFUserIdFromUser( User $user, $flags = User::READ_LATEST ) {
-		$db = ( $flags & User::READ_LATEST )
+	public static function getXFUserIdFromUser( User $user, $flags = IDBAccessObject::READ_LATEST ) {
+		$db = ( $flags & IDBAccessObject::READ_LATEST )
 			? wfGetDB( DB_PRIMARY )
 			: wfGetDB( DB_REPLICA );
 
@@ -137,7 +137,7 @@ class XenForoUser {
 			[ 'user_xfuserid' ],
 			[ 'user_id' => $user->getId() ],
 			__METHOD__,
-			( ( $flags & User::READ_LOCKING ) == User::READ_LOCKING )
+			( ( $flags & IDBAccessObject::READ_LOCKING ) == IDBAccessObject::READ_LOCKING )
 				? [ 'LOCK IN SHARE MODE' ]
 				: []
 		);
@@ -156,12 +156,12 @@ class XenForoUser {
 	 * User Id set to this object.
 	 *
 	 * @param string $xfUserId The XenForo User ID to get the user to
-	 * @param int $flags User::READ_* constant bitfield
+	 * @param int $flags IDBAccessObject::READ_* constant bitfield
 	 * @return null|User The local User account connected with the XenForo user ID if
 	 * the XenForo user ID is connected to an User, null otherwise.
 	 */
-	public static function getUserFromXFUserId( $xfUserId, $flags = User::READ_LATEST ) {
-		$db = ( $flags & User::READ_LATEST )
+	public static function getUserFromXFUserId( $xfUserId, $flags = IDBAccessObject::READ_LATEST ) {
+		$db = ( $flags & IDBAccessObject::READ_LATEST )
 			? wfGetDB( DB_PRIMARY )
 			: wfGetDB( DB_REPLICA );
 
@@ -170,7 +170,7 @@ class XenForoUser {
 			[ 'user_id' ],
 			[ 'user_xfuserid' => $xfUserId ],
 			__METHOD__,
-			( ( $flags & User::READ_LOCKING ) == User::READ_LOCKING )
+			( ( $flags & IDBAccessObject::READ_LOCKING ) == IDBAccessObject::READ_LOCKING )
 				? [ 'LOCK IN SHARE MODE' ]
 				: []
 		);
