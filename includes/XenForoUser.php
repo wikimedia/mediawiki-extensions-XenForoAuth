@@ -129,8 +129,8 @@ class XenForoUser {
 	 */
 	public static function getXFUserIdFromUser( User $user, $flags = IDBAccessObject::READ_LATEST ) {
 		$db = ( $flags & IDBAccessObject::READ_LATEST )
-			? wfGetDB( DB_PRIMARY )
-			: wfGetDB( DB_REPLICA );
+			? MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY )
+			: MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 
 		$s = $db->select(
 			'user_xenforo_user',
@@ -162,8 +162,8 @@ class XenForoUser {
 	 */
 	public static function getUserFromXFUserId( $xfUserId, $flags = IDBAccessObject::READ_LATEST ) {
 		$db = ( $flags & IDBAccessObject::READ_LATEST )
-			? wfGetDB( DB_PRIMARY )
-			: wfGetDB( DB_REPLICA );
+			? MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY )
+			: MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 
 		$s = $db->selectRow(
 			'user_xenforo_user',
@@ -211,7 +211,7 @@ class XenForoUser {
 		}
 
 		// get DD master
-		$dbw = wfGetDB( DB_PRIMARY );
+		$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 		// try to delete the row with this XenForo ID
 		if (
 			$dbw->delete(
@@ -235,7 +235,7 @@ class XenForoUser {
 	 * @return bool Whether the insert/update statement was successful
 	 */
 	public static function connectWithXenForoUser( User $user, $xfUserId ) {
-		$dbw = wfGetDB( DB_PRIMARY );
+		$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 
 		return $dbw->insert(
 			'user_xenforo_user',
