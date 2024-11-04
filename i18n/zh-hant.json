@@ -6,7 +6,6 @@
 		]
 	},
 	"xenforoauth": "以 XenForo 登入",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "以 XenForo 建立",
 	"xenforoauth-desc": "允許使用者以 XenForo 帳號登入",
 	"xenforoauth-generic-error": "啊呀，出現錯誤。請返回並再重試。訊息：$1",

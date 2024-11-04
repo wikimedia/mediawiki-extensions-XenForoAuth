@@ -5,7 +5,6 @@
 		]
 	},
 	"xenforoauth": "Авторизоваться через XenForo",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Зарегистрироваться через XenForo",
 	"xenforoauth-desc": "Позволяет пользователям авторизовываться с помощью аккаунта XenForo",
 	"xenforoauth-generic-error": "К сожалению, произошла ошибка. Пожалуйста, вернитесь назад и повторите попытку. Сообщение: $1",

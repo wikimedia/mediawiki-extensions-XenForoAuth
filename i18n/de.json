@@ -10,7 +10,6 @@
 		]
 	},
 	"xenforoauth": "Anmelden mit XenForo",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Mit XenForo erstellen",
 	"xenforoauth-desc": "Erlaubt es Benutzern, sich mit einem XenForo-Konto anzumelden.",
 	"xenforoauth-generic-error": "Oops! Es gab ein Problem. Bitte gehe zurück und versuche die Aktion erneut. Fehlernachricht: $1",

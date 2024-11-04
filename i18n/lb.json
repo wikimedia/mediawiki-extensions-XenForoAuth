@@ -6,7 +6,6 @@
 		]
 	},
 	"xenforoauth": "Mat XenForo aloggen",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Mat XenForo uleeën",
 	"xenforoauth-desc": "Erlaabt et de Benotzer fir sech mat engem XenForo-Kont anzeloggen",
 	"xenforoauth-generic-error": "Ups, do war e Feeler. Gitt wgl. zréck a probéiert nach eng Kéier. Message: $1",

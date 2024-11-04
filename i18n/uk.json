@@ -1,12 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Piramidion",
-			"Amire80"
+			"Piramidion"
 		]
 	},
 	"xenforoauth": "Увійти через XenForo",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Створити через XenForo",
 	"xenforoauth-desc": "Дозволити користувачам входити в систему через обліковий запис XenForo",
 	"xenforoauth-generic-error": "Ой, сталася помилка. Будь ласка, поверніться назад і спробуйте ще раз. Повідомлення: $1",

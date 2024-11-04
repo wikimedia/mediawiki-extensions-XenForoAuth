@@ -6,7 +6,6 @@
 		]
 	},
 	"xenforoauth": "XenForo ile oturum açın",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "XenForo ile oluştur",
 	"xenforoauth-desc": "Kullanıcıların bir XenForo hesabıyla oturum açmasına izin ver",
 	"xenforoauth-generic-error": "Ups, bir hata oluştu. Lütfen geri dönün ve tekrar deneyin. Mesaj: $1",

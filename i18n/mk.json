@@ -5,7 +5,6 @@
 		]
 	},
 	"xenforoauth": "Најава со XenForo",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Создај со XenForo",
 	"xenforoauth-desc": "Дозволи корисниците да се најавуваат со сметка на XenForo",
 	"xenforoauth-generic-error": "Се појави грешка. Навратете се и обидете се повторно. Порака: $1",

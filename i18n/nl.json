@@ -7,7 +7,6 @@
 		]
 	},
 	"xenforoauth": "Aanmelden met XenForo",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Aanmaken met XenForo",
 	"xenforoauth-desc": "Voegt de mogelijkheid toe om aan te melden met een XenForo account",
 	"xenforoauth-generic-error": "Er is een fout opgetreden. Probeer het opnieuw. Bericht: $1",

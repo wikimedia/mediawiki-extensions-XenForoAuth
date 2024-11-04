@@ -6,7 +6,6 @@
 		]
 	},
 	"xenforoauth": "Kirjaudu sisään XenForolla",
-	"xenforoauth-auth-service-name": "XenForo",
 	"xenforoauth-create": "Luo XenForolla",
 	"xenforoauth-generic-error": "Ups, tapahtui virhe. Palaa takaisin ja yritä uudelleen. Viesti: $1",
 	"xenforoauth-external-error": "Ulkoinen sivusto kieltäytyi tunnistamasta sinua tai kohtasi virheen. Yritä uudelleen tai ota yhteyttä sivuston ylläpitäjään. Viesti: $1",
