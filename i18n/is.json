@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sveinn í Felli"
+		]
+	},
+	"xenforoauth-access-denied": "Tekst ekki að skrá inn. Þú neitaðir aðgangi að upplýsingum um XenForo-reikninginn þinn."
+}
