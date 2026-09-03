@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"xenforoauth": "Ku gal XenForo",
+	"xenforoauth-create": "Ku samee XenForo",
+	"xenforoauth-desc": "U oggolow isticmaalayaasha inay ku galaan akoonka XenForo",
+	"xenforoauth-generic-error": "Alla, khalad ayaa dhacay. Fadlan dib ugu noqo oo mar kale isku day. Farriin: $1",
+	"xenforoauth-external-error": "Bogga dibadda ayaa diiday inuu ku xaqiijiyo ama khalad ayaa ka dhacay. Fadlan mar kale isku day ama la xiriir maamulaha bogga. Farriintu waxay ahayd: $1",
+	"xenforoauth-form-merge": "Ku xidh XenForo akoonka wiki-ga",
+	"xenforoauth-form-unlink": "Ka jar XenForo akoonka wiki-ga",
+	"xenforoauth-link-other": "Akoonkaaga XenForo wuxuu horey ugu xidhnaa isticmaale kale. Fadlan ka jar xidhiidhka ama la xiriir maamule, haddii aadan lahayn akoon wiki oo kale.",
+	"xenforoauth-link-same": "Akoonkaaga XenForo wuxuu horey ugu xidhnaa isticmaalahaaga, sidaas darteed mar kale kuma xidhi kartid.",
+	"xenforoauth-error-no-authentication-workflow": "Waxaad codsatay inaad sii waddo habraac xaqiijin XenForo ah oo hore loo bilaabay, laakiin ma jiro habraac hore loo bilaabay. Fadlan bilow habraac xaqiijin cusub adigoo mar kale isku dayaya inaad gasho.",
+	"xenforoauth-loginbutton-help": "Wuxuu kugu xaqiijiyaa akoonkaaga XenForo.",
+	"xenforoauth-link-help": "Ku xidh akoonkaaga wiki-ga akoonkaaga XenForo.",
+	"xenforoauth-param-error-label": "Koodhka khaladka ee laga soo celiyay XenForo",
+	"xenforoauth-param-error-help": "Haddii xaqiijintu fashilanto, koodhka khaladka ee laga soo celiyay XenForo.",
+	"xenforoauth-param-code-label": "Calaamadda gelitaanka ee laga helay XenForo",
+	"xenforoauth-param-code-help": "Haddii kiiska guulaysato, calaamadda gelitaanka ee laga soo celiyay XenForo.",
+	"xenforoauth-change-account-not-linked": "Maka saari kartid xiriirka akoonka XenForo, sababtoo ah akoonkaaga kuma xirna akoon XenForo ah.",
+	"xenforoauth-auth-service-unknown-account": "Akoon XenForo ah oo aan la aqoon",
+	"xenforoauth-access-denied": "Lama geli karo. Waxaad diidday in la galo macluumaadka akoonkaaga XenForo.",
+	"xenforoauth-local-exists": "Waxaad si guul leh u gashay akoonkaaga XenForo. Si kastaba ha ahaatee, akoon leh magaca isticmaalaha $1 ayaa hore uga jira {{SITENAME}}, mana ku xirna akoonkaaga XenForo, sidaas darteed lama geli karin. Eeg [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:XenForoAuth/Local_account_already_exists bogga caawinta] si aad u hesho macluumaad dheeraad ah oo ku saabsan khaladkan."
+}
